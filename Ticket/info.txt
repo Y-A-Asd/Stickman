@@ -1,0 +1,35 @@
+Users
+
+Clients
+-id_code : int
+
+
+Admin
+-username : string
+-password : string
+-checkPassword : boolean
+-addEvents()
+-removeEvents()
+
+
+
+Events
+-name : string
+-capacity : int
+-remainingCapacity : int
+-start : date
+-end : date
+-availability : boolean
+-showEvents()
+-filterEvents()
+
+Date
+-year : string
+-month : string
+-day : string
+-date() :return date
+
+Tickets(user,event)
+-addTicket()
+-removeTicket()
+-showTicket()

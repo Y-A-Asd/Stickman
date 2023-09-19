@@ -1,0 +1,126 @@
+Design Problem - Tech With Tim School of Programmers
+
+The Tech With Tim school of programmers needs a new system to track all of its students,
+professors and courses. It wants to keep track of what courses are offered,
+who teaches each course and which students are enrolled in those courses.
+It would also like to be able to track the grades of each of its students across all courses.
+For each student and professor the school needs to know their address, phone number, name and age.
+
+Each course has a maximum and minimum number of students that they can enrol.
+If the minimum number of students is not reached then the course will be cancelled.
+Each course is taught by at least one professor but sometimes may be taught by many.
+
+Professors are salaried employees at the Tech With Tim School of programmers
+and therefore we need to keep track of how much they make each year.
+If a professor teaches more than 4 courses in a semester then they are granted a one time bonus of $20,000.
+
+Students can be both local or international students and full or part time.
+A student is considered a part time student if they are enrolled in 1 or 2 courses during any given semester.
+The maximum amount of courses a student may be enrolled in at one time is 6.
+Students receive grades from each course, these grades are numeric in the range of 0-100.
+Any students that have an average grade across all enrolled courses lower than 60% is said to be on academic probation.
+
+NOTE: This system will be reset and updated at the end of each semester
+
+
+
+
+| نوع          | نام                | توضیح                                      |
+|---------------|--------------------|-------------------------------------------|
+| متغیرها  | events_dict      | دیکشنری برای ذخیره اطلاعات رویدادها. |
+|               | users_dict       | دیکشنری برای ذخیره اطلاعات کاربران.  |
+|               |                    |                                           |
+| کلاس‌ها  | Event            | برای نگه‌داری اطلاعات هر رویداد.      |
+|               | User             | برای نگه‌داری اطلاعات کاربران.        |
+|               | Reservation      | برای نگه‌داری اطلاعات رزروها.        |
+|               |                    |                                           |
+| توابع    | create_event     | تعریف رویداد جدید.                     |
+|               | view_all_events  | مشاهده لیست تمام رویدادها.            |
+|               | reserve_ticket   | رزرو بلیت.                              |
+|               | `cancel_reservation`| لغو رزرو بلیت.                          |
+|               | update_event_capacity | بروزرسانی ظرفیت باقیمانده رویداد. |
+|               | save_data_to_files | ذخیره اطلاعات در فایل‌ها.            |
+|               |                    |                                           |
+| ورودی/خروجی | event_data   | اطلاعات رویداد جدید برای تابع create_event. |
+|               | username         | نام کاربری برای رزرو و لغو بلیت.        |
+|               | event_title      | عنوان رویداد برای رزرو و لغو بلیت.      |
+|               | reservation_date | تاریخ رزرو بلیت.                          |
+|               |                    |                                           |
+| دیتا تایپ‌ها | event_id     | Integer: شناسه یکتای رویداد.             |
+|               | event_title      | String: عنوان رویداد.                    |
+|               | total_capacity   | Integer: ظرفیت کل رویداد.               |
+|               | remaining_capacity | Integer: ظرفیت باقیمانده رویداد.      |
+|               | event_date       | Date: تاریخ رویداد.                      |
+|               | username         | String: نام کاربری کاربر.               |
+|               | password         | String: کلمه عبور کاربر.                |
+|               | reservation_date | Date: تاریخ رزرو بلیت.                   |
+
+
+کلاس Event (رویداد):
+
+| نوع دیتا تایپ | نام             | توضیح                                |
+|------------------|------------------|-------------------------------------|
+| Integer          | event_id         | شناسه یکتای رویداد.               |
+| String           | event_title      | عنوان رویداد.                      |
+| Integer          | total_capacity   | ظرفیت کل رویداد.                 |
+| Integer          | remaining_capacity | ظرفیت باقیمانده رویداد.       |
+| Date             | event_date       | تاریخ رویداد.                      |
+
+کلاس User (کاربر):
+
+| نوع دیتا تایپ | نام             | توضیح                                |
+|------------------|------------------|-------------------------------------|
+| String           | username         | نام کاربری کاربر.                |
+| String           | password         | کلمه عبور کاربر.                  |
+
+کلاس Reservation (رزرو):
+
+| نوع دیتا تایپ | نام             | توضیح                                |
+|------------------|------------------|-------------------------------------|
+| User             | user             | شیء کاربر مرتبط با رزرو.         |
+| Event            | event            | شیء رویداد مرتبط با رزرو.       |
+| Date             | reservation_date | تاریخ رزرو بلیت.                   |
+
+توابع:
+
+- create_event(event_data)
+
+| نوع دیتا تایپ | نام             | توضیح                                |
+|------------------|------------------|-------------------------------------|
+| Dictionary       | event_data       | اطلاعات رویداد جدید.             |
+
+- view_all_events()
+
+| نوع دیتا تایپ | نام             | توضیح                                |
+|------------------|------------------|-------------------------------------|
+|                |                  | بدون ورودی.                         |
+| List of Event    |                  | لیست تمام رویدادها به عنوان خروجی. |
+
+- reserve_ticket(username, event_title, reservation_date)
+
+| نوع دیتا تایپ | نام             | توضیح                                |
+|------------------|------------------|-------------------------------------|
+| String           | username         | نام کاربری برای رزرو بلیت.      |
+| String           | event_title      | عنوان رویداد برای رزرو بلیت.   |
+| Date             | reservation_date | تاریخ رزرو بلیت.                   |
+
+- cancel_reservation(username, event_title, reservation_date)
+
+| نوع دیتا تایپ | نام             | توضیح                                |
+|------------------|------------------|-------------------------------------|
+| String           | username         | نام کاربری برای لغو رزرو بلیت. |
+| String           | event_title      | عنوان رویداد برای لغو رزرو بلیت.|
+| Date             | reservation_date | تاریخ رزرو بلیت.                   |
+
+- update_event_capacity(event_title)
+
+| نوع دیتا تایپ | نام             | توضیح                                |
+|------------------|------------------|-------------------------------------|
+| String           | event_title      | عنوان رویداد برای بروزرسانی ظرفیت. |
+
+- save_data_to_files()
+
+| نوع دیتا تایپ | نام             | توضیح                                |
+|------------------|------------------|-------------------------------------|
+|                |                  | بدون ورودی.                         |
+|                |                  | بدون خروجی.                         |
