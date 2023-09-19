@@ -1,0 +1,1996 @@
+16196-DEBUG-called function check_products
+15856-DEBUG-called function login
+15856-DEBUG-login process done!
+8252-DEBUG-called function login
+8252-DEBUG-login process done!
+11940-DEBUG-called function login
+11940-DEBUG-called function check_user
+11940-DEBUG-check_user process done!
+5008-DEBUG-called function login
+5008-DEBUG-login process done!
+9044-DEBUG-called function login
+9044-DEBUG-called function check_user
+9044-DEBUG-check_user process done!
+9044-DEBUG-login process done!
+6456-DEBUG-called function main
+6456-DEBUG-called function create_connection
+6456-DEBUG-create_connection process done!
+6456-DEBUG-called function reset_table
+6456-DEBUG-reset_table process done!
+6456-DEBUG-called function men_u
+6456-DEBUG-called function create_connection
+6456-DEBUG-create_connection process done!
+6456-DEBUG-called function login
+6456-DEBUG-called function check_user
+6456-DEBUG-check_user process done!
+6456-DEBUG-login process done!
+6456-DEBUG-called function signup
+6456-DEBUG-called function check_user
+6456-DEBUG-check_user process done!
+11396-DEBUG-called function main
+11396-DEBUG-called function create_connection
+11396-DEBUG-create_connection process done!
+11396-DEBUG-called function reset_table
+11396-DEBUG-reset_table process done!
+11396-DEBUG-called function men_u
+11396-DEBUG-called function create_connection
+11396-DEBUG-create_connection process done!
+15464-DEBUG-called function main
+15464-DEBUG-called function create_connection
+15464-DEBUG-create_connection process done!
+15464-DEBUG-called function reset_table
+15464-DEBUG-reset_table process done!
+15464-DEBUG-called function men_u
+15464-DEBUG-called function create_connection
+15464-DEBUG-create_connection process done!
+15464-DEBUG-called function login
+15464-DEBUG-called function check_user
+15464-DEBUG-check_user process done!
+15464-DEBUG-login process done!
+15464-DEBUG-called function login
+15464-DEBUG-called function check_user
+15464-DEBUG-check_user process done!
+15464-DEBUG-login process done!
+15464-DEBUG-called function signup
+15464-DEBUG-called function check_user
+15464-DEBUG-check_user process done!
+15464-DEBUG-signup process done!
+15156-DEBUG-called function main
+15156-DEBUG-called function create_connection
+15156-DEBUG-create_connection process done!
+15156-DEBUG-called function reset_table
+15156-DEBUG-reset_table process done!
+15156-DEBUG-called function men_u
+15156-DEBUG-called function create_connection
+15156-DEBUG-create_connection process done!
+15156-DEBUG-called function login
+15156-DEBUG-called function check_user
+15156-DEBUG-check_user process done!
+15156-DEBUG-login process done!
+15156-DEBUG-called function login
+15156-DEBUG-called function check_user
+15156-DEBUG-check_user process done!
+15156-DEBUG-login process done!
+11776-DEBUG-called function main
+11776-DEBUG-called function create_connection
+11776-DEBUG-create_connection process done!
+11776-DEBUG-called function reset_table
+11776-DEBUG-reset_table process done!
+11776-DEBUG-called function men_u
+11776-DEBUG-called function create_connection
+11776-DEBUG-create_connection process done!
+15824-DEBUG-called function main
+15824-DEBUG-called function create_connection
+15824-DEBUG-create_connection process done!
+15824-DEBUG-called function reset_table
+15824-DEBUG-reset_table process done!
+15824-DEBUG-called function men_u
+15824-DEBUG-called function create_connection
+15824-DEBUG-create_connection process done!
+15824-DEBUG-called function login
+15824-DEBUG-login process done!
+15824-DEBUG-called function signup
+15824-DEBUG-signup process done!
+15824-DEBUG-called function login
+15824-DEBUG-login process done!
+15248-DEBUG-called function main
+15248-DEBUG-called function create_connection
+15248-DEBUG-create_connection process done!
+15248-DEBUG-called function reset_table
+15248-DEBUG-reset_table process done!
+15248-DEBUG-called function men_u
+15248-DEBUG-called function create_connection
+15248-DEBUG-create_connection process done!
+15248-DEBUG-called function login
+15248-DEBUG-login process done!
+2552-DEBUG-called function main
+2552-DEBUG-called function create_connection
+2552-DEBUG-create_connection process done!
+2552-DEBUG-called function reset_table
+2552-DEBUG-reset_table process done!
+2552-DEBUG-called function men_u
+2552-DEBUG-called function create_connection
+2552-DEBUG-create_connection process done!
+12584-DEBUG-called function main
+12584-DEBUG-called function create_connection
+12584-DEBUG-create_connection process done!
+12584-DEBUG-called function reset_table
+12584-DEBUG-reset_table process done!
+12584-DEBUG-called function men_u
+12584-DEBUG-called function create_connection
+12584-DEBUG-create_connection process done!
+12584-DEBUG-called function login
+12584-DEBUG-login process done!
+13400-DEBUG-called function main
+13400-DEBUG-called function create_connection
+13400-DEBUG-create_connection process done!
+13400-DEBUG-called function reset_table
+13400-DEBUG-reset_table process done!
+13400-DEBUG-called function men_u
+13400-DEBUG-called function create_connection
+13400-DEBUG-create_connection process done!
+13096-DEBUG-called function main
+13096-DEBUG-called function create_connection
+13096-DEBUG-create_connection process done!
+13096-DEBUG-called function reset_table
+13096-DEBUG-reset_table process done!
+13096-DEBUG-called function men_u
+13096-DEBUG-called function create_connection
+13096-DEBUG-create_connection process done!
+13096-DEBUG-called function login
+13096-DEBUG-login process done!
+2076-DEBUG-called function main
+2076-DEBUG-called function create_connection
+2076-DEBUG-create_connection process done!
+2076-DEBUG-called function reset_table
+2076-DEBUG-reset_table process done!
+2076-DEBUG-called function men_u
+2076-DEBUG-called function create_connection
+2076-DEBUG-create_connection process done!
+15744-DEBUG-called function main
+15744-DEBUG-called function create_connection
+15744-DEBUG-create_connection process done!
+15744-DEBUG-called function reset_table
+15744-DEBUG-reset_table process done!
+15744-DEBUG-called function men_u
+15744-DEBUG-called function create_connection
+15744-DEBUG-create_connection process done!
+15744-DEBUG-called function login
+15744-DEBUG-called function check_user
+15744-DEBUG-check_user process done!
+15744-DEBUG-login process done!
+15744-DEBUG-called function signup
+15744-DEBUG-called function check_user
+15744-DEBUG-check_user process done!
+15744-DEBUG-signup process done!
+15744-DEBUG-called function signup
+15744-DEBUG-called function check_user
+15744-DEBUG-check_user process done!
+15744-DEBUG-signup process done!
+14984-DEBUG-called function main
+14984-DEBUG-called function create_connection
+14984-DEBUG-create_connection process done!
+14984-DEBUG-called function reset_table
+14984-DEBUG-reset_table process done!
+14984-DEBUG-called function men_u
+14984-DEBUG-called function create_connection
+14984-DEBUG-create_connection process done!
+14984-DEBUG-called function login
+14284-DEBUG-called function main
+14284-DEBUG-called function create_connection
+14284-DEBUG-create_connection process done!
+14284-DEBUG-called function reset_table
+14284-DEBUG-reset_table process done!
+14284-DEBUG-called function men_u
+14284-DEBUG-called function create_connection
+14284-DEBUG-create_connection process done!
+748-DEBUG-called function main
+748-DEBUG-called function create_connection
+748-DEBUG-create_connection process done!
+748-DEBUG-called function reset_table
+748-DEBUG-reset_table process done!
+748-DEBUG-called function men_u
+748-DEBUG-called function create_connection
+748-DEBUG-create_connection process done!
+748-DEBUG-called function login
+748-DEBUG-called function check_user
+748-DEBUG-check_user process done!
+748-DEBUG-login process done!
+748-DEBUG-called function signup
+16196-DEBUG-called function main
+16196-DEBUG-called function create_connection
+16196-DEBUG-create_connection process done!
+16196-DEBUG-called function reset_table
+16196-DEBUG-reset_table process done!
+16196-DEBUG-called function men_u
+16196-DEBUG-called function create_connection
+16196-DEBUG-create_connection process done!
+16196-DEBUG-called function login
+16196-DEBUG-called function check_user
+16196-DEBUG-check_user process done!
+16196-DEBUG-login process done!
+16196-DEBUG-called function signup
+16196-DEBUG-signup process done!
+12828-DEBUG-called function main
+12828-DEBUG-called function create_connection
+12828-DEBUG-create_connection process done!
+12828-DEBUG-called function reset_table
+12828-DEBUG-reset_table process done!
+12828-DEBUG-called function men_u
+12828-DEBUG-called function create_connection
+12828-DEBUG-create_connection process done!
+12828-DEBUG-called function login
+12828-DEBUG-called function check_user
+12828-DEBUG-check_user process done!
+12828-DEBUG-login process done!
+12828-DEBUG-called function signup
+12828-DEBUG-signup process done!
+12828-DEBUG-called function login
+12828-DEBUG-login process done!
+12584-DEBUG-called function main
+12584-DEBUG-called function create_connection
+12584-DEBUG-create_connection process done!
+12584-DEBUG-called function reset_table
+12584-DEBUG-reset_table process done!
+12584-DEBUG-called function men_u
+12584-DEBUG-called function create_connection
+12584-DEBUG-create_connection process done!
+12584-DEBUG-main process done!
+11400-DEBUG-called function main
+11400-DEBUG-called function create_connection
+11400-DEBUG-create_connection process done!
+11400-DEBUG-called function reset_table
+11400-DEBUG-reset_table process done!
+11400-DEBUG-called function men_u
+11400-DEBUG-called function create_connection
+11400-DEBUG-create_connection process done!
+11400-DEBUG-main process done!
+10816-DEBUG-called function main
+10816-DEBUG-called function create_connection
+10816-DEBUG-create_connection process done!
+10816-DEBUG-called function reset_table
+10816-DEBUG-reset_table process done!
+10816-DEBUG-called function men_u
+10816-DEBUG-called function create_connection
+10816-DEBUG-create_connection process done!
+2116-DEBUG-called function main
+2116-DEBUG-called function create_connection
+2116-DEBUG-create_connection process done!
+2116-DEBUG-called function reset_table
+2116-DEBUG-reset_table process done!
+2116-DEBUG-called function men_u
+2116-DEBUG-called function create_connection
+2116-DEBUG-create_connection process done!
+2116-DEBUG-men_u process done!
+2116-DEBUG-main process done!
+884-DEBUG-called function main
+884-DEBUG-called function create_connection
+884-DEBUG-create_connection process done!
+884-DEBUG-called function reset_table
+884-DEBUG-reset_table process done!
+884-DEBUG-called function men_u
+884-DEBUG-called function create_connection
+884-DEBUG-create_connection process done!
+3280-DEBUG-called function main
+3280-DEBUG-called function create_connection
+3280-DEBUG-create_connection process done!
+3280-DEBUG-called function reset_table
+3280-DEBUG-reset_table process done!
+3280-DEBUG-called function men_u
+3280-DEBUG-called function create_connection
+3280-DEBUG-create_connection process done!
+3280-DEBUG-called function login
+3280-DEBUG-called function check_user
+3280-DEBUG-check_user process done!
+3280-DEBUG-login process done!
+3280-DEBUG-called function show_products
+3280-DEBUG-show_products process done!
+3280-DEBUG-called function insert_into_cart
+3280-DEBUG-called function check_into_cart
+3280-DEBUG-check_into_cart process done!
+3280-DEBUG-called function check_products
+3280-DEBUG-check_products process done!
+3280-DEBUG-insert_into_cart process done!
+3280-DEBUG-main process done!
+15928-DEBUG-called function main
+15928-DEBUG-called function create_connection
+15928-DEBUG-create_connection process done!
+15928-DEBUG-called function reset_table
+15928-DEBUG-reset_table process done!
+15928-DEBUG-called function men_u
+15928-DEBUG-called function create_connection
+15928-DEBUG-create_connection process done!
+15928-DEBUG-called function insert_into_cart
+15928-DEBUG-called function check_into_cart
+15928-DEBUG-check_into_cart process done!
+15928-DEBUG-insert_into_cart process done!
+15928-DEBUG-main process done!
+5264-DEBUG-called function main
+5264-DEBUG-called function create_connection
+5264-DEBUG-create_connection process done!
+5264-DEBUG-called function reset_table
+5264-DEBUG-reset_table process done!
+5264-DEBUG-called function men_u
+5264-DEBUG-called function create_connection
+5264-DEBUG-create_connection process done!
+5264-DEBUG-called function login
+5264-DEBUG-called function check_user
+5264-DEBUG-check_user process done!
+5264-DEBUG-login process done!
+5264-DEBUG-called function insert_into_cart
+5264-DEBUG-called function check_into_cart
+10688-DEBUG-called function main
+10688-DEBUG-called function create_connection
+10688-DEBUG-create_connection process done!
+10688-DEBUG-called function reset_table
+10688-DEBUG-reset_table process done!
+10688-DEBUG-called function men_u
+10688-DEBUG-called function create_connection
+10688-DEBUG-create_connection process done!
+10688-DEBUG-called function login
+10688-DEBUG-called function check_user
+10688-DEBUG-check_user process done!
+10688-DEBUG-login process done!
+10688-DEBUG-called function insert_into_cart
+10688-DEBUG-called function check_into_cart
+10688-DEBUG-check_into_cart process done!
+10688-DEBUG-called function check_products
+10688-DEBUG-check_products process done!
+10688-DEBUG-insert_into_cart process done!
+10688-DEBUG-called function show_cart
+15064-DEBUG-called function main
+15064-DEBUG-called function create_connection
+15064-DEBUG-create_connection process done!
+15064-DEBUG-called function reset_table
+15064-DEBUG-reset_table process done!
+15064-DEBUG-called function men_u
+15064-DEBUG-called function create_connection
+15064-DEBUG-create_connection process done!
+15064-DEBUG-called function insert_into_cart
+15064-DEBUG-insert_into_cart process done!
+15064-DEBUG-called function show_cart
+15064-DEBUG-show_cart process done!
+15064-DEBUG-main process done!
+14620-DEBUG-called function main
+14620-DEBUG-called function create_connection
+14620-DEBUG-create_connection process done!
+14620-DEBUG-called function reset_table
+14620-DEBUG-reset_table process done!
+14620-DEBUG-called function men_u
+14620-DEBUG-called function create_connection
+14620-DEBUG-create_connection process done!
+14620-DEBUG-called function show_cart
+14620-DEBUG-show_cart process done!
+14620-DEBUG-called function insert_into_cart
+14620-DEBUG-insert_into_cart process done!
+14620-DEBUG-called function login
+14620-DEBUG-called function check_user
+14620-DEBUG-check_user process done!
+14620-DEBUG-login process done!
+14620-DEBUG-called function show_cart
+14620-DEBUG-show_cart process done!
+14620-DEBUG-main process done!
+11948-DEBUG-called function main
+11948-DEBUG-called function create_connection
+11948-DEBUG-create_connection process done!
+11948-DEBUG-called function reset_table
+11948-DEBUG-reset_table process done!
+11948-DEBUG-called function men_u
+11948-DEBUG-called function create_connection
+11948-DEBUG-create_connection process done!
+11948-DEBUG-called function login
+11948-DEBUG-called function check_user
+11948-DEBUG-check_user process done!
+11948-DEBUG-login process done!
+11948-DEBUG-called function show_cart
+11948-DEBUG-show_cart process done!
+11948-DEBUG-called function show_cart
+11948-DEBUG-show_cart process done!
+11948-DEBUG-main process done!
+13460-DEBUG-called function main
+13460-DEBUG-called function create_connection
+13460-DEBUG-create_connection process done!
+13460-DEBUG-called function reset_table
+13460-DEBUG-reset_table process done!
+13460-DEBUG-called function men_u
+13460-DEBUG-called function create_connection
+13460-DEBUG-create_connection process done!
+13460-DEBUG-called function login
+13460-DEBUG-called function check_user
+13460-DEBUG-check_user process done!
+13460-DEBUG-login process done!
+13460-DEBUG-called function show_cart
+13460-DEBUG-main process done!
+8872-DEBUG-called function main
+8872-DEBUG-called function create_connection
+8872-DEBUG-create_connection process done!
+8872-DEBUG-called function reset_table
+8872-DEBUG-reset_table process done!
+8872-DEBUG-called function men_u
+8872-DEBUG-called function create_connection
+8872-DEBUG-create_connection process done!
+8872-DEBUG-called function login
+8872-DEBUG-called function check_user
+8872-DEBUG-check_user process done!
+8872-DEBUG-login process done!
+8872-DEBUG-called function show_cart
+8872-DEBUG-show_cart process done!
+4392-DEBUG-called function main
+4392-DEBUG-called function create_connection
+4392-DEBUG-create_connection process done!
+4392-DEBUG-called function reset_table
+4392-DEBUG-reset_table process done!
+4392-DEBUG-called function men_u
+4392-DEBUG-called function create_connection
+4392-DEBUG-create_connection process done!
+4392-DEBUG-called function login
+4392-DEBUG-called function check_user
+4392-DEBUG-check_user process done!
+4392-DEBUG-login process done!
+4392-DEBUG-called function show_cart
+4392-DEBUG-show_cart process done!
+4392-DEBUG-called function submit
+15800-DEBUG-called function main
+15800-DEBUG-called function create_connection
+15800-DEBUG-create_connection process done!
+15800-DEBUG-called function reset_table
+15800-DEBUG-reset_table process done!
+15800-DEBUG-called function men_u
+15800-DEBUG-called function create_connection
+15800-DEBUG-create_connection process done!
+15800-DEBUG-called function submit
+16312-DEBUG-called function main
+16312-DEBUG-called function create_connection
+16312-DEBUG-create_connection process done!
+16312-DEBUG-called function reset_table
+16312-DEBUG-reset_table process done!
+16312-DEBUG-called function men_u
+16312-DEBUG-called function create_connection
+16312-DEBUG-create_connection process done!
+16312-DEBUG-called function show_cart
+15984-DEBUG-called function main
+15984-DEBUG-called function create_connection
+15984-DEBUG-create_connection process done!
+15984-DEBUG-called function reset_table
+15984-DEBUG-reset_table process done!
+15984-DEBUG-called function men_u
+15984-DEBUG-called function create_connection
+15984-DEBUG-create_connection process done!
+15984-DEBUG-called function show_cart
+15984-DEBUG-show_cart process done!
+15984-DEBUG-called function submit
+15984-DEBUG-submit process done!
+15984-DEBUG-called function remove_from_cart
+15984-DEBUG-called function check_into_cart
+15984-DEBUG-check_into_cart process done!
+15984-DEBUG-remove_from_cart process done!
+15984-DEBUG-main process done!
+4468-DEBUG-called function main
+4468-DEBUG-called function create_connection
+4468-DEBUG-create_connection process done!
+4468-DEBUG-called function reset_table
+4468-DEBUG-reset_table process done!
+4468-DEBUG-called function men_u
+4468-DEBUG-called function create_connection
+4468-DEBUG-create_connection process done!
+4468-DEBUG-called function show_cart
+4468-DEBUG-show_cart process done!
+4468-DEBUG-called function remove_from_cart
+4468-DEBUG-remove_from_cart process done!
+4468-DEBUG-called function show_products
+4468-DEBUG-show_products process done!
+4468-DEBUG-called function login
+4468-DEBUG-called function check_user
+4468-DEBUG-check_user process done!
+4468-DEBUG-login process done!
+4468-DEBUG-called function show_cart
+4468-DEBUG-show_cart process done!
+4468-DEBUG-called function submit
+4468-DEBUG-submit process done!
+4468-DEBUG-main process done!
+10668-DEBUG-called function main
+10668-DEBUG-called function create_connection
+10668-DEBUG-create_connection process done!
+10668-DEBUG-called function reset_table
+10668-DEBUG-reset_table process done!
+10668-DEBUG-called function men_u
+10668-DEBUG-called function create_connection
+10668-DEBUG-create_connection process done!
+10668-DEBUG-called function login
+10668-DEBUG-called function check_user
+10668-DEBUG-check_user process done!
+10668-DEBUG-login process done!
+10668-DEBUG-called function show_cart
+10668-DEBUG-show_cart process done!
+10668-DEBUG-called function submit
+10668-DEBUG-submit process done!
+10668-DEBUG-called function submit
+10668-DEBUG-main process done!
+15968-DEBUG-called function main
+15968-DEBUG-called function create_connection
+15968-DEBUG-create_connection process done!
+15968-DEBUG-called function reset_table
+15968-DEBUG-reset_table process done!
+15968-DEBUG-called function men_u
+15968-DEBUG-called function create_connection
+15968-DEBUG-create_connection process done!
+15968-DEBUG-main process done!
+13192-DEBUG-called function main
+13192-DEBUG-called function create_connection
+13192-DEBUG-create_connection process done!
+13192-DEBUG-called function reset_table
+13192-DEBUG-reset_table process done!
+13192-DEBUG-called function men_u
+13192-DEBUG-called function create_connection
+13192-DEBUG-create_connection process done!
+13192-DEBUG-called function login
+13192-DEBUG-called function check_user
+13192-DEBUG-check_user process done!
+13192-DEBUG-login process done!
+13192-DEBUG-called function show_cart
+13192-DEBUG-show_cart process done!
+13192-DEBUG-called function submit
+11932-DEBUG-called function main
+11932-DEBUG-called function create_connection
+11932-DEBUG-create_connection process done!
+11932-DEBUG-called function reset_table
+11932-DEBUG-reset_table process done!
+11932-DEBUG-called function men_u
+11932-DEBUG-called function create_connection
+11932-DEBUG-create_connection process done!
+11932-DEBUG-called function login
+11932-DEBUG-called function check_user
+11932-DEBUG-check_user process done!
+11932-DEBUG-login process done!
+11932-DEBUG-called function show_cart
+11932-DEBUG-show_cart process done!
+11932-DEBUG-called function submit
+11932-DEBUG-main process done!
+15856-DEBUG-called function main
+15856-DEBUG-called function create_connection
+15856-DEBUG-create_connection process done!
+15856-DEBUG-called function reset_table
+15856-DEBUG-reset_table process done!
+15856-DEBUG-called function men_u
+15856-DEBUG-called function create_connection
+15856-DEBUG-create_connection process done!
+15856-DEBUG-called function login
+15856-DEBUG-called function check_user
+15856-DEBUG-check_user process done!
+15856-DEBUG-login process done!
+15856-DEBUG-called function show_cart
+15856-DEBUG-show_cart process done!
+15856-DEBUG-called function submit
+11428-DEBUG-called function main
+11428-DEBUG-called function create_connection
+11428-DEBUG-create_connection process done!
+11428-DEBUG-called function reset_table
+11428-DEBUG-reset_table process done!
+11428-DEBUG-called function men_u
+11428-DEBUG-called function create_connection
+11428-DEBUG-create_connection process done!
+11428-DEBUG-called function login
+11428-DEBUG-called function check_user
+11428-DEBUG-check_user process done!
+11428-DEBUG-login process done!
+11428-DEBUG-called function show_cart
+11428-DEBUG-show_cart process done!
+11428-DEBUG-called function submit
+7300-DEBUG-called function main
+7300-DEBUG-called function create_connection
+7300-DEBUG-create_connection process done!
+7300-DEBUG-called function reset_table
+7300-DEBUG-reset_table process done!
+7300-DEBUG-called function men_u
+7300-DEBUG-called function create_connection
+7300-DEBUG-create_connection process done!
+7300-DEBUG-called function login
+7300-DEBUG-called function check_user
+7300-DEBUG-check_user process done!
+7300-DEBUG-login process done!
+7300-DEBUG-called function insert_into_cart
+7300-DEBUG-called function check_into_cart
+7300-DEBUG-check_into_cart process done!
+7300-DEBUG-called function check_products
+7300-DEBUG-check_products process done!
+7300-DEBUG-insert_into_cart process done!
+7300-DEBUG-called function insert_into_cart
+7300-DEBUG-insert_into_cart process done!
+7300-DEBUG-called function insert_into_cart
+7300-DEBUG-insert_into_cart process done!
+7300-DEBUG-main process done!
+5676-DEBUG-called function main
+5676-DEBUG-called function create_connection
+5676-DEBUG-create_connection process done!
+5676-DEBUG-called function reset_table
+5676-DEBUG-reset_table process done!
+5676-DEBUG-called function men_u
+5676-DEBUG-called function create_connection
+5676-DEBUG-create_connection process done!
+5676-DEBUG-called function login
+5676-DEBUG-called function check_user
+5676-DEBUG-check_user process done!
+5676-DEBUG-login process done!
+5676-DEBUG-called function insert_into_cart
+5676-DEBUG-called function check_into_cart
+5676-DEBUG-check_into_cart process done!
+5676-DEBUG-called function check_products
+5676-DEBUG-check_products process done!
+5676-DEBUG-insert_into_cart process done!
+5676-DEBUG-called function insert_into_cart
+5676-DEBUG-insert_into_cart process done!
+5676-DEBUG-called function insert_into_cart
+5676-DEBUG-insert_into_cart process done!
+5676-DEBUG-called function insert_into_cart
+5676-DEBUG-main process done!
+16016-DEBUG-called function main
+16016-DEBUG-called function create_connection
+16016-DEBUG-create_connection process done!
+16016-DEBUG-called function reset_table
+16016-DEBUG-reset_table process done!
+16016-DEBUG-called function men_u
+16016-DEBUG-called function create_connection
+16016-DEBUG-create_connection process done!
+16016-DEBUG-called function login
+16016-DEBUG-called function check_user
+16016-DEBUG-check_user process done!
+16016-DEBUG-login process done!
+16016-DEBUG-called function show_cart
+16016-DEBUG-show_cart process done!
+16016-DEBUG-called function insert_into_cart
+16016-DEBUG-called function check_into_cart
+16016-DEBUG-check_into_cart process done!
+16016-DEBUG-called function check_products
+16016-DEBUG-check_products process done!
+16016-DEBUG-insert_into_cart process done!
+16016-DEBUG-called function insert_into_cart
+16016-DEBUG-called function check_into_cart
+16016-DEBUG-check_into_cart process done!
+16016-DEBUG-called function check_products
+16016-DEBUG-check_products process done!
+16016-DEBUG-insert_into_cart process done!
+16016-DEBUG-called function show_cart
+16016-DEBUG-show_cart process done!
+16016-DEBUG-called function submit
+9156-DEBUG-called function main
+9156-DEBUG-called function create_connection
+9156-DEBUG-create_connection process done!
+9156-DEBUG-called function reset_table
+9156-DEBUG-reset_table process done!
+9156-DEBUG-called function men_u
+9156-DEBUG-called function create_connection
+9156-DEBUG-create_connection process done!
+9156-DEBUG-called function login
+9156-DEBUG-called function check_user
+9156-DEBUG-check_user process done!
+9156-DEBUG-login process done!
+9156-DEBUG-called function show_cart
+9156-DEBUG-show_cart process done!
+9156-DEBUG-called function submit
+15000-DEBUG-called function main
+15000-DEBUG-called function create_connection
+15000-DEBUG-create_connection process done!
+15000-DEBUG-called function reset_table
+15000-DEBUG-reset_table process done!
+15000-DEBUG-called function men_u
+15000-DEBUG-called function create_connection
+15000-DEBUG-create_connection process done!
+15000-DEBUG-called function login
+15000-DEBUG-called function check_user
+15000-DEBUG-check_user process done!
+15000-DEBUG-login process done!
+15000-DEBUG-called function show_cart
+15000-DEBUG-show_cart process done!
+15000-DEBUG-called function submit
+15000-DEBUG-main process done!
+13672-DEBUG-called function main
+13672-DEBUG-called function create_connection
+13672-DEBUG-create_connection process done!
+13672-DEBUG-called function reset_table
+13672-DEBUG-reset_table process done!
+13672-DEBUG-called function men_u
+13672-DEBUG-called function create_connection
+13672-DEBUG-create_connection process done!
+13672-DEBUG-called function login
+13672-DEBUG-called function check_user
+13672-DEBUG-check_user process done!
+13672-DEBUG-login process done!
+13672-DEBUG-called function show_cart
+13672-DEBUG-show_cart process done!
+13672-DEBUG-called function submit
+1416-DEBUG-called function main
+1416-DEBUG-called function create_connection
+1416-DEBUG-create_connection process done!
+1416-DEBUG-called function reset_table
+1416-DEBUG-reset_table process done!
+1416-DEBUG-called function men_u
+1416-DEBUG-called function create_connection
+1416-DEBUG-create_connection process done!
+1416-DEBUG-called function login
+1416-DEBUG-called function check_user
+1416-DEBUG-check_user process done!
+1416-DEBUG-login process done!
+1416-DEBUG-called function submit
+1416-DEBUG-called function cart_pay
+1416-DEBUG-cart_pay process done!
+1768-DEBUG-called function main
+1768-DEBUG-called function create_connection
+1768-DEBUG-create_connection process done!
+1768-DEBUG-called function reset_table
+1768-DEBUG-reset_table process done!
+1768-DEBUG-called function men_u
+1768-DEBUG-called function create_connection
+1768-DEBUG-create_connection process done!
+1768-DEBUG-called function login
+1768-DEBUG-called function check_user
+1768-DEBUG-check_user process done!
+1768-DEBUG-login process done!
+1768-DEBUG-called function submit
+1768-DEBUG-called function cart_pay
+1768-DEBUG-cart_pay process done!
+9660-DEBUG-called function main
+9660-DEBUG-called function create_connection
+9660-DEBUG-create_connection process done!
+9660-DEBUG-called function reset_table
+9660-DEBUG-reset_table process done!
+9660-DEBUG-called function men_u
+9660-DEBUG-called function create_connection
+9660-DEBUG-create_connection process done!
+9660-DEBUG-called function login
+9660-DEBUG-called function check_user
+9660-DEBUG-check_user process done!
+9660-DEBUG-login process done!
+9660-DEBUG-called function submit
+9660-DEBUG-called function cart_pay
+16012-DEBUG-called function main
+16012-DEBUG-called function create_connection
+16012-DEBUG-create_connection process done!
+16012-DEBUG-called function reset_table
+16012-DEBUG-reset_table process done!
+16012-DEBUG-called function men_u
+16012-DEBUG-called function create_connection
+16012-DEBUG-create_connection process done!
+16012-DEBUG-called function login
+16012-DEBUG-called function check_user
+16012-DEBUG-check_user process done!
+16012-DEBUG-login process done!
+16012-DEBUG-called function submit
+16012-DEBUG-called function cart_pay
+16012-DEBUG-cart_pay process done!
+2616-DEBUG-called function main
+2616-DEBUG-called function create_connection
+2616-DEBUG-create_connection process done!
+2616-DEBUG-called function reset_table
+2616-DEBUG-reset_table process done!
+2616-DEBUG-called function men_u
+2616-DEBUG-called function create_connection
+2616-DEBUG-create_connection process done!
+2616-DEBUG-called function login
+2616-DEBUG-called function check_user
+2616-DEBUG-check_user process done!
+2616-DEBUG-login process done!
+2616-DEBUG-called function submit
+2616-DEBUG-called function cart_pay
+2616-DEBUG-cart_pay process done!
+13920-DEBUG-called function main
+13920-DEBUG-called function create_connection
+13920-DEBUG-create_connection process done!
+13920-DEBUG-called function reset_table
+13920-DEBUG-reset_table process done!
+13920-DEBUG-called function men_u
+13920-DEBUG-called function create_connection
+13920-DEBUG-create_connection process done!
+13920-DEBUG-called function login
+13920-DEBUG-called function check_user
+13920-DEBUG-check_user process done!
+13920-DEBUG-login process done!
+13920-DEBUG-called function submit
+13920-DEBUG-called function cart_pay
+14388-DEBUG-called function main
+14388-DEBUG-called function create_connection
+14388-DEBUG-create_connection process done!
+14388-DEBUG-called function reset_table
+14388-DEBUG-reset_table process done!
+14388-DEBUG-called function men_u
+14388-DEBUG-called function create_connection
+14388-DEBUG-create_connection process done!
+14388-DEBUG-called function login
+14388-DEBUG-called function check_user
+14388-DEBUG-check_user process done!
+14388-DEBUG-login process done!
+14388-DEBUG-called function submit
+14388-DEBUG-called function cart_pay
+10156-DEBUG-called function main
+10156-DEBUG-called function create_connection
+10156-DEBUG-create_connection process done!
+10156-DEBUG-called function reset_table
+10156-DEBUG-reset_table process done!
+10156-DEBUG-called function men_u
+10156-DEBUG-called function create_connection
+10156-DEBUG-create_connection process done!
+10156-DEBUG-called function login
+10156-DEBUG-called function check_user
+10156-DEBUG-check_user process done!
+10156-DEBUG-login process done!
+10156-DEBUG-called function submit
+10156-DEBUG-called function cart_pay
+12624-DEBUG-called function main
+12624-DEBUG-called function create_connection
+12624-DEBUG-create_connection process done!
+12624-DEBUG-called function reset_table
+12624-DEBUG-reset_table process done!
+12624-DEBUG-called function men_u
+12624-DEBUG-called function create_connection
+12624-DEBUG-create_connection process done!
+12624-DEBUG-called function login
+12624-DEBUG-called function check_user
+12624-DEBUG-check_user process done!
+12624-DEBUG-login process done!
+12624-DEBUG-called function submit
+12624-DEBUG-called function cart_pay
+10944-DEBUG-called function main
+10944-DEBUG-called function create_connection
+10944-DEBUG-create_connection process done!
+10944-DEBUG-called function reset_table
+10944-DEBUG-reset_table process done!
+10944-DEBUG-called function men_u
+10944-DEBUG-called function create_connection
+10944-DEBUG-create_connection process done!
+10944-DEBUG-called function login
+10944-DEBUG-called function check_user
+10944-DEBUG-check_user process done!
+10944-DEBUG-login process done!
+10944-DEBUG-called function submit
+10944-DEBUG-called function cart_pay
+10944-DEBUG-submit process done!
+10944-DEBUG-main process done!
+15988-DEBUG-called function main
+15988-DEBUG-called function create_connection
+15988-DEBUG-create_connection process done!
+15988-DEBUG-called function reset_table
+15988-DEBUG-reset_table process done!
+15988-DEBUG-called function men_u
+15988-DEBUG-called function create_connection
+15988-DEBUG-create_connection process done!
+15988-DEBUG-called function login
+15988-DEBUG-called function check_user
+15988-DEBUG-check_user process done!
+15988-DEBUG-login process done!
+15988-DEBUG-called function submit
+15988-DEBUG-called function cart_pay
+15988-DEBUG-main process done!
+11684-DEBUG-called function main
+11684-DEBUG-called function create_connection
+11684-DEBUG-create_connection process done!
+11684-DEBUG-called function reset_table
+11684-DEBUG-reset_table process done!
+11684-DEBUG-called function men_u
+11684-DEBUG-called function create_connection
+11684-DEBUG-create_connection process done!
+11684-DEBUG-called function login
+11684-DEBUG-called function check_user
+11684-DEBUG-check_user process done!
+11684-DEBUG-login process done!
+11684-DEBUG-called function submit
+11684-DEBUG-called function cart_pay
+11684-DEBUG-men_u process done!
+11684-DEBUG-main process done!
+7180-DEBUG-called function main
+7180-DEBUG-called function create_connection
+7180-DEBUG-create_connection process done!
+7180-DEBUG-called function reset_table
+7180-DEBUG-reset_table process done!
+7180-DEBUG-called function men_u
+7180-DEBUG-called function create_connection
+7180-DEBUG-create_connection process done!
+7180-DEBUG-called function login
+7180-DEBUG-called function check_user
+7180-DEBUG-check_user process done!
+7180-DEBUG-login process done!
+7180-DEBUG-called function submit
+7180-DEBUG-called function cart_pay
+7180-DEBUG-men_u process done!
+7180-DEBUG-main process done!
+13568-DEBUG-called function main
+13568-DEBUG-called function create_connection
+13568-DEBUG-create_connection process done!
+13568-DEBUG-called function reset_table
+13568-DEBUG-reset_table process done!
+13568-DEBUG-called function men_u
+13568-DEBUG-called function create_connection
+13568-DEBUG-create_connection process done!
+13568-DEBUG-called function login
+13568-DEBUG-called function check_user
+13568-DEBUG-check_user process done!
+13568-DEBUG-login process done!
+13568-DEBUG-called function submit
+13568-DEBUG-called function cart_pay
+13568-DEBUG-men_u process done!
+13568-DEBUG-main process done!
+6812-DEBUG-called function main
+6812-DEBUG-called function create_connection
+6812-DEBUG-create_connection process done!
+6812-DEBUG-called function reset_table
+6812-DEBUG-reset_table process done!
+6812-DEBUG-called function men_u
+6812-DEBUG-called function create_connection
+6812-DEBUG-create_connection process done!
+6812-DEBUG-called function login
+6812-DEBUG-called function check_user
+6812-DEBUG-check_user process done!
+6812-DEBUG-login process done!
+6812-DEBUG-called function submit
+6812-DEBUG-called function cart_pay
+12852-DEBUG-called function main
+12852-DEBUG-called function create_connection
+12852-DEBUG-create_connection process done!
+12852-DEBUG-called function reset_table
+12852-DEBUG-reset_table process done!
+12852-DEBUG-called function men_u
+12852-DEBUG-called function create_connection
+12852-DEBUG-create_connection process done!
+12852-DEBUG-called function login
+12852-DEBUG-called function check_user
+12852-DEBUG-check_user process done!
+12852-DEBUG-login process done!
+12852-DEBUG-called function submit
+12852-DEBUG-called function cart_pay
+13980-DEBUG-called function main
+13980-DEBUG-called function create_connection
+13980-DEBUG-create_connection process done!
+13980-DEBUG-called function reset_table
+13980-DEBUG-reset_table process done!
+13980-DEBUG-called function men_u
+13980-DEBUG-called function create_connection
+13980-DEBUG-create_connection process done!
+13980-DEBUG-called function login
+13980-DEBUG-called function check_user
+13980-DEBUG-check_user process done!
+1636-DEBUG-called function main
+1636-DEBUG-called function create_connection
+1636-DEBUG-create_connection process done!
+1636-DEBUG-called function reset_table
+1636-DEBUG-reset_table process done!
+1636-DEBUG-called function men_u
+1636-DEBUG-called function create_connection
+1636-DEBUG-create_connection process done!
+1636-DEBUG-called function login
+1636-DEBUG-called function check_user
+1636-DEBUG-check_user process done!
+1636-DEBUG-login process done!
+1636-DEBUG-called function submit
+1636-DEBUG-called function cart_pay
+1636-DEBUG-cart_pay process done!
+14328-DEBUG-called function main
+14328-DEBUG-called function create_connection
+14328-DEBUG-create_connection process done!
+14328-DEBUG-called function reset_table
+14328-DEBUG-reset_table process done!
+14328-DEBUG-called function men_u
+14328-DEBUG-called function create_connection
+14328-DEBUG-create_connection process done!
+14328-DEBUG-called function login
+14328-DEBUG-called function check_user
+14328-DEBUG-check_user process done!
+14328-DEBUG-login process done!
+14328-DEBUG-called function show_cart
+14328-DEBUG-show_cart process done!
+14328-DEBUG-called function submit
+14328-DEBUG-called function cart_pay
+14328-DEBUG-cart_pay process done!
+14328-DEBUG-called function update_products_list
+15736-DEBUG-called function main
+15736-DEBUG-called function create_connection
+15736-DEBUG-create_connection process done!
+15736-DEBUG-called function reset_table
+15736-DEBUG-reset_table process done!
+15736-DEBUG-called function men_u
+15736-DEBUG-called function create_connection
+15736-DEBUG-create_connection process done!
+15736-DEBUG-called function login
+15736-DEBUG-called function check_user
+15736-DEBUG-check_user process done!
+15736-DEBUG-login process done!
+15736-DEBUG-called function show_cart
+15736-DEBUG-show_cart process done!
+15736-DEBUG-called function submit
+15736-DEBUG-called function cart_pay
+15736-DEBUG-cart_pay process done!
+15736-DEBUG-called function update_products_list
+15736-DEBUG-update_products_list process done!
+15736-DEBUG-called function update_products_list
+15736-DEBUG-update_products_list process done!
+11556-DEBUG-called function main
+11556-DEBUG-called function create_connection
+11556-DEBUG-create_connection process done!
+11556-DEBUG-called function reset_table
+11556-DEBUG-reset_table process done!
+11556-DEBUG-called function men_u
+11556-DEBUG-called function create_connection
+11556-DEBUG-create_connection process done!
+11556-DEBUG-called function login
+11556-DEBUG-called function check_user
+11556-DEBUG-check_user process done!
+11556-DEBUG-login process done!
+11556-DEBUG-called function show_cart
+11556-DEBUG-show_cart process done!
+11556-DEBUG-called function submit
+11556-DEBUG-called function cart_pay
+11556-DEBUG-cart_pay process done!
+11556-DEBUG-called function update_products_list
+11556-DEBUG-main process done!
+4556-DEBUG-called function main
+4556-DEBUG-called function create_connection
+4556-DEBUG-create_connection process done!
+4556-DEBUG-called function reset_table
+4556-DEBUG-reset_table process done!
+4556-DEBUG-called function men_u
+4556-DEBUG-called function create_connection
+4556-DEBUG-create_connection process done!
+4556-DEBUG-main process done!
+19272-DEBUG-called function main
+19272-DEBUG-called function create_connection
+19272-DEBUG-create_connection process done!
+19272-DEBUG-called function reset_table
+19272-DEBUG-reset_table process done!
+19272-DEBUG-called function men_u
+19272-DEBUG-called function create_connection
+19272-DEBUG-create_connection process done!
+19272-DEBUG-called function login
+19272-DEBUG-called function check_user
+19272-DEBUG-check_user process done!
+19272-DEBUG-login process done!
+19272-DEBUG-called function show_cart
+19272-DEBUG-show_cart process done!
+19272-DEBUG-called function submit
+19272-DEBUG-called function cart_pay
+19272-DEBUG-cart_pay process done!
+19272-DEBUG-called function update_products_list
+19272-DEBUG-update_products_list process done!
+19272-DEBUG-called function update_products_list
+19272-DEBUG-update_products_list process done!
+16256-DEBUG-called function main
+16256-DEBUG-called function create_connection
+16256-DEBUG-create_connection process done!
+16256-DEBUG-called function reset_table
+16256-DEBUG-reset_table process done!
+16256-DEBUG-called function men_u
+16256-DEBUG-called function create_connection
+16256-DEBUG-create_connection process done!
+16256-DEBUG-called function login
+16256-DEBUG-called function check_user
+16256-DEBUG-check_user process done!
+16256-DEBUG-login process done!
+16256-DEBUG-called function show_cart
+16256-DEBUG-show_cart process done!
+16256-DEBUG-called function submit
+16256-DEBUG-called function cart_pay
+16256-DEBUG-cart_pay process done!
+16256-DEBUG-called function update_products_list
+16256-DEBUG-update_products_list process done!
+16256-DEBUG-called function update_products_list
+16256-DEBUG-update_products_list process done!
+16256-DEBUG-main process done!
+10940-DEBUG-called function main
+10940-DEBUG-called function create_connection
+10940-DEBUG-create_connection process done!
+10940-DEBUG-called function reset_table
+10940-DEBUG-reset_table process done!
+10940-DEBUG-called function men_u
+10940-DEBUG-called function create_connection
+10940-DEBUG-create_connection process done!
+10940-DEBUG-called function login
+10940-DEBUG-called function check_user
+10940-DEBUG-check_user process done!
+10940-DEBUG-login process done!
+10940-DEBUG-called function submit
+10940-DEBUG-called function cart_pay
+10940-DEBUG-cart_pay process done!
+10940-DEBUG-called function update_products_list
+10940-DEBUG-update_products_list process done!
+10940-DEBUG-called function update_products_list
+10940-DEBUG-update_products_list process done!
+5876-DEBUG-called function main
+5876-DEBUG-called function create_connection
+5876-DEBUG-create_connection process done!
+5876-DEBUG-called function reset_table
+5876-DEBUG-reset_table process done!
+5876-DEBUG-called function men_u
+5876-DEBUG-called function create_connection
+5876-DEBUG-create_connection process done!
+5876-DEBUG-called function login
+5876-DEBUG-called function check_user
+5876-DEBUG-check_user process done!
+5876-DEBUG-login process done!
+5876-DEBUG-called function remove_from_cart
+5876-DEBUG-called function check_into_cart
+5876-DEBUG-check_into_cart process done!
+5876-DEBUG-remove_from_cart process done!
+5876-DEBUG-main process done!
+19008-DEBUG-called function main
+19008-DEBUG-called function create_connection
+19008-DEBUG-create_connection process done!
+19008-DEBUG-called function reset_table
+19008-DEBUG-reset_table process done!
+19008-DEBUG-called function men_u
+19008-DEBUG-called function create_connection
+19008-DEBUG-create_connection process done!
+19008-DEBUG-main process done!
+13996-DEBUG-called function main
+13996-DEBUG-called function create_connection
+13996-DEBUG-create_connection process done!
+13996-DEBUG-called function reset_table
+13996-DEBUG-reset_table process done!
+13996-DEBUG-called function men_u
+13996-DEBUG-called function create_connection
+13996-DEBUG-create_connection process done!
+13996-DEBUG-called function login
+13996-DEBUG-called function check_user
+13996-DEBUG-check_user process done!
+13996-DEBUG-login process done!
+13996-DEBUG-called function remove_from_cart
+13996-DEBUG-called function check_into_cart
+13996-DEBUG-check_into_cart process done!
+13996-DEBUG-main process done!
+13516-DEBUG-called function main
+13516-DEBUG-called function create_connection
+13516-DEBUG-create_connection process done!
+13516-DEBUG-called function reset_table
+13516-DEBUG-reset_table process done!
+13516-DEBUG-called function men_u
+13516-DEBUG-called function create_connection
+13516-DEBUG-create_connection process done!
+13516-DEBUG-called function login
+13516-DEBUG-called function check_user
+13516-DEBUG-check_user process done!
+13516-DEBUG-login process done!
+13516-DEBUG-called function remove_from_cart
+13516-DEBUG-called function check_into_cart
+13516-DEBUG-check_into_cart process done!
+13516-DEBUG-remove_from_cart process done!
+13516-DEBUG-called function remove_from_cart
+13516-DEBUG-called function check_into_cart
+13516-DEBUG-check_into_cart process done!
+13516-DEBUG-remove_from_cart process done!
+13516-DEBUG-called function remove_from_cart
+13516-DEBUG-called function check_into_cart
+13516-DEBUG-check_into_cart process done!
+13516-DEBUG-remove_from_cart process done!
+13516-DEBUG-main process done!
+10908-DEBUG-called function main
+10908-DEBUG-called function create_connection
+10908-DEBUG-create_connection process done!
+10908-DEBUG-called function reset_table
+10908-DEBUG-reset_table process done!
+10908-DEBUG-called function men_u
+10908-DEBUG-called function create_connection
+10908-DEBUG-create_connection process done!
+10908-DEBUG-called function login
+10908-DEBUG-called function check_user
+10908-DEBUG-check_user process done!
+10908-DEBUG-login process done!
+10908-DEBUG-called function modify_cart
+10772-DEBUG-called function main
+10772-DEBUG-called function create_connection
+10772-DEBUG-create_connection process done!
+10772-DEBUG-called function reset_table
+10772-DEBUG-reset_table process done!
+10772-DEBUG-called function men_u
+10772-DEBUG-called function create_connection
+10772-DEBUG-create_connection process done!
+10772-DEBUG-called function login
+10772-DEBUG-called function check_user
+10772-DEBUG-check_user process done!
+10772-DEBUG-login process done!
+10772-DEBUG-called function show_cart
+10772-DEBUG-show_cart process done!
+10772-DEBUG-called function modify_cart
+10772-DEBUG-modify_cart process done!
+10772-DEBUG-main process done!
+7820-DEBUG-called function main
+7820-DEBUG-called function create_connection
+7820-DEBUG-create_connection process done!
+7820-DEBUG-called function reset_table
+7820-DEBUG-reset_table process done!
+7820-DEBUG-called function men_u
+7820-DEBUG-called function create_connection
+7820-DEBUG-create_connection process done!
+7820-DEBUG-called function login
+7820-DEBUG-called function check_user
+7820-DEBUG-check_user process done!
+7820-DEBUG-login process done!
+7820-DEBUG-called function show_products
+7820-DEBUG-show_products process done!
+7820-DEBUG-called function show_cart
+7820-DEBUG-show_cart process done!
+7820-DEBUG-called function insert_into_cart
+7820-DEBUG-called function check_into_cart
+7820-DEBUG-check_into_cart process done!
+7820-DEBUG-called function check_products
+7820-DEBUG-check_products process done!
+7820-DEBUG-insert_into_cart process done!
+7820-DEBUG-called function show_cart
+7820-DEBUG-show_cart process done!
+7820-DEBUG-called function modify_cart
+7820-DEBUG-modify_cart process done!
+7820-DEBUG-main process done!
+8232-DEBUG-called function main
+8232-DEBUG-called function create_connection
+8232-DEBUG-create_connection process done!
+8232-DEBUG-called function reset_table
+8232-DEBUG-reset_table process done!
+8232-DEBUG-called function men_u
+8232-DEBUG-called function create_connection
+8232-DEBUG-create_connection process done!
+8232-DEBUG-called function login
+8232-DEBUG-called function check_user
+8232-DEBUG-check_user process done!
+8232-DEBUG-login process done!
+8232-DEBUG-called function show_cart
+8232-DEBUG-show_cart process done!
+8232-DEBUG-called function modify_cart
+8232-DEBUG-modify_cart process done!
+8232-DEBUG-main process done!
+6356-DEBUG-called function main
+6356-DEBUG-called function create_connection
+6356-DEBUG-create_connection process done!
+6356-DEBUG-called function reset_table
+6356-DEBUG-reset_table process done!
+6356-DEBUG-called function men_u
+6356-DEBUG-called function create_connection
+6356-DEBUG-create_connection process done!
+6356-DEBUG-called function login
+6356-DEBUG-called function check_user
+6356-DEBUG-check_user process done!
+6356-DEBUG-login process done!
+6356-DEBUG-called function show_cart
+6356-DEBUG-show_cart process done!
+6356-DEBUG-called function modify_cart
+6604-DEBUG-called function main
+6604-DEBUG-called function create_connection
+6604-DEBUG-create_connection process done!
+6604-DEBUG-called function reset_table
+6604-DEBUG-reset_table process done!
+6604-DEBUG-called function men_u
+6604-DEBUG-called function create_connection
+6604-DEBUG-create_connection process done!
+6604-DEBUG-called function login
+6604-DEBUG-called function check_user
+6604-DEBUG-check_user process done!
+2432-DEBUG-called function main
+2432-DEBUG-called function create_connection
+2432-DEBUG-create_connection process done!
+2432-DEBUG-called function reset_table
+2432-DEBUG-reset_table process done!
+2432-DEBUG-called function men_u
+2432-DEBUG-called function create_connection
+2432-DEBUG-create_connection process done!
+2432-DEBUG-called function login
+2432-DEBUG-called function check_user
+2432-DEBUG-check_user process done!
+2432-DEBUG-login process done!
+2432-DEBUG-called function show_cart
+2432-DEBUG-show_cart process done!
+2432-DEBUG-called function modify_cart
+2432-DEBUG-modify_cart process done!
+2432-DEBUG-called function show_cart
+2432-DEBUG-show_cart process done!
+2432-DEBUG-main process done!
+11476-DEBUG-called function main
+11476-DEBUG-called function create_connection
+11476-DEBUG-create_connection process done!
+11476-DEBUG-called function reset_table
+11476-DEBUG-reset_table process done!
+11476-DEBUG-called function men_u
+11476-DEBUG-called function create_connection
+11476-DEBUG-create_connection process done!
+11476-DEBUG-called function show_products
+11476-DEBUG-show_products process done!
+11476-DEBUG-called function insert_into_cart
+11476-DEBUG-called function check_into_cart
+11476-DEBUG-check_into_cart process done!
+11476-DEBUG-called function check_products
+11476-DEBUG-check_products process done!
+1672-DEBUG-called function main
+1672-DEBUG-called function create_connection
+1672-DEBUG-create_connection process done!
+1672-DEBUG-called function reset_table
+1672-DEBUG-reset_table process done!
+1672-DEBUG-called function men_u
+1672-DEBUG-called function create_connection
+1672-DEBUG-create_connection process done!
+1672-DEBUG-called function insert_into_cart
+1672-DEBUG-insert_into_cart process done!
+1672-DEBUG-called function remove_from_cart
+1672-DEBUG-remove_from_cart process done!
+1672-DEBUG-called function modify_cart
+1672-DEBUG-modify_cart process done!
+1672-DEBUG-called function show_cart
+1672-DEBUG-show_cart process done!
+1672-DEBUG-called function submit
+1672-DEBUG-submit process done!
+4688-DEBUG-called function main
+4688-DEBUG-called function create_connection
+4688-DEBUG-create_connection process done!
+4688-DEBUG-called function reset_table
+4688-DEBUG-reset_table process done!
+4688-DEBUG-called function men_u
+4688-DEBUG-called function create_connection
+4688-DEBUG-create_connection process done!
+4688-DEBUG-called function signup
+4688-DEBUG-called function check_user
+4688-DEBUG-check_user process done!
+4688-DEBUG-signup process done!
+4688-DEBUG-called function show_products
+4688-DEBUG-show_products process done!
+4688-DEBUG-called function insert_into_cart
+4688-DEBUG-called function check_into_cart
+4688-DEBUG-check_into_cart process done!
+4688-DEBUG-called function check_products
+4688-DEBUG-check_products process done!
+4688-DEBUG-insert_into_cart process done!
+4688-DEBUG-called function insert_into_cart
+4688-DEBUG-called function check_into_cart
+4688-DEBUG-check_into_cart process done!
+4688-DEBUG-called function check_products
+4688-DEBUG-check_products process done!
+4688-DEBUG-insert_into_cart process done!
+4688-DEBUG-main process done!
+11548-DEBUG-called function main
+11548-DEBUG-called function create_connection
+11548-DEBUG-create_connection process done!
+11548-DEBUG-called function reset_table
+11548-DEBUG-reset_table process done!
+11548-DEBUG-called function men_u
+11548-DEBUG-called function create_connection
+11548-DEBUG-create_connection process done!
+11548-DEBUG-called function login
+11548-DEBUG-called function check_user
+11548-DEBUG-check_user process done!
+11548-DEBUG-login process done!
+11548-DEBUG-called function submit
+11548-DEBUG-called function cart_pay
+11548-DEBUG-cart_pay process done!
+9720-DEBUG-called function main
+9720-DEBUG-called function create_connection
+9720-DEBUG-create_connection process done!
+9720-DEBUG-called function reset_table
+9720-DEBUG-reset_table process done!
+9720-DEBUG-called function men_u
+9720-DEBUG-called function create_connection
+9720-DEBUG-create_connection process done!
+9720-DEBUG-called function login
+9720-DEBUG-called function check_user
+9720-DEBUG-check_user process done!
+9720-DEBUG-login process done!
+9720-DEBUG-main process done!
+3416-DEBUG-called function main
+3416-DEBUG-called function create_connection
+3416-DEBUG-create_connection process done!
+3416-DEBUG-called function reset_table
+3416-DEBUG-reset_table process done!
+3416-DEBUG-called function men_u
+3416-DEBUG-called function create_connection
+3416-DEBUG-create_connection process done!
+3416-DEBUG-called function login
+3416-DEBUG-called function check_user
+3416-DEBUG-check_user process done!
+3416-DEBUG-login process done!
+3416-DEBUG-called function show_cart
+3416-DEBUG-show_cart process done!
+3416-DEBUG-called function submit
+3416-DEBUG-called function cart_pay
+3416-DEBUG-cart_pay process done!
+2023-09-06 01:30:33,185-7852-DEBUG-called function main
+2023-09-06 01:30:33,186-7852-DEBUG-called function create_connection
+2023-09-06 01:30:33,186-7852-DEBUG-create_connection process done!
+2023-09-06 01:30:33,186-7852-DEBUG-called function reset_table
+2023-09-06 01:30:33,187-7852-DEBUG-reset_table process done!
+2023-09-06 01:30:33,188-7852-DEBUG-called function men_u
+2023-09-06 01:30:33,188-7852-DEBUG-called function create_connection
+2023-09-06 01:30:33,188-7852-DEBUG-create_connection process done!
+2023-09-06 03:00:34,358-7852-DEBUG-main process done!
+2023-09-06 06:02:28,317-7820-DEBUG-called function main
+2023-09-06 06:02:28,319-7820-DEBUG-called function create_connection
+2023-09-06 06:02:28,320-7820-DEBUG-create_connection process done!
+2023-09-06 06:02:28,320-7820-DEBUG-called function reset_table
+2023-09-06 06:02:28,321-7820-DEBUG-reset_table process done!
+2023-09-06 06:02:28,321-7820-DEBUG-called function men_u
+2023-09-06 06:02:28,321-7820-DEBUG-called function create_connection
+2023-09-06 06:02:28,321-7820-DEBUG-create_connection process done!
+2023-09-06 06:02:37,009-7820-DEBUG-called function signup
+2023-09-06 06:02:37,011-7820-DEBUG-called function check_user
+2023-09-06 06:02:37,011-7820-DEBUG-check_user process done!
+2023-09-06 06:03:24,473-7820-DEBUG-signup process done!
+2023-09-06 06:03:44,464-7820-DEBUG-called function login
+2023-09-06 06:03:44,465-7820-DEBUG-login process done!
+2023-09-06 06:03:50,139-7820-DEBUG-main process done!
+2023-09-06 06:03:53,004-3612-DEBUG-called function main
+2023-09-06 06:03:53,005-3612-DEBUG-called function create_connection
+2023-09-06 06:03:53,006-3612-DEBUG-create_connection process done!
+2023-09-06 06:03:53,006-3612-DEBUG-called function reset_table
+2023-09-06 06:03:53,196-3612-DEBUG-reset_table process done!
+2023-09-06 06:03:53,196-3612-DEBUG-called function men_u
+2023-09-06 06:03:53,196-3612-DEBUG-called function create_connection
+2023-09-06 06:03:53,198-3612-DEBUG-create_connection process done!
+2023-09-06 06:03:58,689-3612-DEBUG-called function login
+2023-09-06 06:03:58,691-3612-DEBUG-called function check_user
+2023-09-06 06:03:58,691-3612-DEBUG-check_user process done!
+2023-09-06 06:03:58,692-3612-DEBUG-login process done!
+2023-09-06 06:05:02,119-3612-DEBUG-called function login
+2023-09-06 06:05:02,119-3612-DEBUG-called function check_user
+2023-09-06 06:05:02,120-3612-DEBUG-check_user process done!
+2023-09-06 06:05:02,120-3612-DEBUG-login process done!
+2023-09-06 06:05:14,965-3612-DEBUG-called function login
+2023-09-06 06:05:30,881-3612-DEBUG-called function check_user
+2023-09-06 06:05:39,819-3612-DEBUG-check_user process done!
+2023-09-06 06:06:10,885-3612-DEBUG-main process done!
+2023-09-06 06:06:12,556-3004-DEBUG-called function main
+2023-09-06 06:06:12,558-3004-DEBUG-called function create_connection
+2023-09-06 06:06:12,559-3004-DEBUG-create_connection process done!
+2023-09-06 06:06:12,559-3004-DEBUG-called function reset_table
+2023-09-06 06:06:12,561-3004-DEBUG-reset_table process done!
+2023-09-06 06:06:12,561-3004-DEBUG-called function men_u
+2023-09-06 06:06:12,561-3004-DEBUG-called function create_connection
+2023-09-06 06:06:12,562-3004-DEBUG-create_connection process done!
+2023-09-06 06:06:17,164-3004-DEBUG-called function login
+2023-09-06 06:06:23,768-3004-DEBUG-called function check_user
+2023-09-06 06:06:42,828-3004-DEBUG-check_user process done!
+2023-09-06 06:07:13,460-3004-DEBUG-main process done!
+2023-09-06 06:07:15,421-8232-DEBUG-called function main
+2023-09-06 06:07:15,422-8232-DEBUG-called function create_connection
+2023-09-06 06:07:15,423-8232-DEBUG-create_connection process done!
+2023-09-06 06:07:15,423-8232-DEBUG-called function reset_table
+2023-09-06 06:07:15,424-8232-DEBUG-reset_table process done!
+2023-09-06 06:07:15,424-8232-DEBUG-called function men_u
+2023-09-06 06:07:15,424-8232-DEBUG-called function create_connection
+2023-09-06 06:07:15,425-8232-DEBUG-create_connection process done!
+2023-09-06 06:07:21,233-8232-DEBUG-called function login
+2023-09-06 06:07:27,653-8232-DEBUG-called function check_user
+2023-09-06 06:07:31,067-8232-DEBUG-check_user process done!
+2023-09-06 06:07:51,481-8232-DEBUG-main process done!
+2023-09-06 06:07:53,171-12192-DEBUG-called function main
+2023-09-06 06:07:53,172-12192-DEBUG-called function create_connection
+2023-09-06 06:07:53,173-12192-DEBUG-create_connection process done!
+2023-09-06 06:07:53,173-12192-DEBUG-called function reset_table
+2023-09-06 06:07:53,174-12192-DEBUG-reset_table process done!
+2023-09-06 06:07:53,175-12192-DEBUG-called function men_u
+2023-09-06 06:07:53,175-12192-DEBUG-called function create_connection
+2023-09-06 06:07:53,175-12192-DEBUG-create_connection process done!
+2023-09-06 06:08:03,093-12192-DEBUG-called function login
+2023-09-06 06:08:03,094-12192-DEBUG-called function check_user
+2023-09-06 06:08:03,095-12192-DEBUG-check_user process done!
+2023-09-06 06:08:33,894-8792-DEBUG-called function main
+2023-09-06 06:08:33,894-8792-DEBUG-called function create_connection
+2023-09-06 06:08:33,894-8792-DEBUG-create_connection process done!
+2023-09-06 06:08:33,894-8792-DEBUG-called function reset_table
+2023-09-06 06:08:33,895-8792-DEBUG-reset_table process done!
+2023-09-06 06:08:33,895-8792-DEBUG-called function men_u
+2023-09-06 06:08:33,895-8792-DEBUG-called function create_connection
+2023-09-06 06:08:33,896-8792-DEBUG-create_connection process done!
+2023-09-06 06:08:39,523-8792-DEBUG-called function login
+2023-09-06 06:08:39,524-8792-DEBUG-called function check_user
+2023-09-06 06:08:39,525-8792-DEBUG-check_user process done!
+2023-09-06 06:11:07,649-9572-DEBUG-called function main
+2023-09-06 06:11:07,649-9572-DEBUG-called function create_connection
+2023-09-06 06:11:07,649-9572-DEBUG-create_connection process done!
+2023-09-06 06:11:07,649-9572-DEBUG-called function reset_table
+2023-09-06 06:11:07,650-9572-DEBUG-reset_table process done!
+2023-09-06 06:11:07,650-9572-DEBUG-called function men_u
+2023-09-06 06:11:07,650-9572-DEBUG-called function create_connection
+2023-09-06 06:11:07,650-9572-DEBUG-create_connection process done!
+2023-09-06 06:11:15,235-9572-DEBUG-called function login
+2023-09-06 06:11:15,236-9572-DEBUG-called function check_user
+2023-09-06 06:11:15,237-9572-DEBUG-check_user process done!
+2023-09-06 06:11:15,237-9572-DEBUG-login process done!
+2023-09-06 06:11:27,017-9572-DEBUG-main process done!
+2023-09-06 06:11:28,526-7568-DEBUG-called function main
+2023-09-06 06:11:28,527-7568-DEBUG-called function create_connection
+2023-09-06 06:11:28,528-7568-DEBUG-create_connection process done!
+2023-09-06 06:11:28,528-7568-DEBUG-called function reset_table
+2023-09-06 06:11:28,529-7568-DEBUG-reset_table process done!
+2023-09-06 06:11:28,529-7568-DEBUG-called function men_u
+2023-09-06 06:11:28,529-7568-DEBUG-called function create_connection
+2023-09-06 06:11:28,529-7568-DEBUG-create_connection process done!
+2023-09-06 06:11:35,752-7568-DEBUG-called function login
+2023-09-06 06:11:35,754-7568-DEBUG-called function check_user
+2023-09-06 06:11:35,754-7568-DEBUG-check_user process done!
+2023-09-06 06:11:35,755-7568-DEBUG-login process done!
+2023-09-06 06:11:59,332-7568-DEBUG-main process done!
+2023-09-06 06:11:59,859-8044-DEBUG-called function main
+2023-09-06 06:11:59,859-8044-DEBUG-called function create_connection
+2023-09-06 06:11:59,859-8044-DEBUG-create_connection process done!
+2023-09-06 06:11:59,859-8044-DEBUG-called function reset_table
+2023-09-06 06:11:59,860-8044-DEBUG-reset_table process done!
+2023-09-06 06:11:59,860-8044-DEBUG-called function men_u
+2023-09-06 06:11:59,860-8044-DEBUG-called function create_connection
+2023-09-06 06:11:59,860-8044-DEBUG-create_connection process done!
+2023-09-06 06:12:06,363-8044-DEBUG-called function login
+2023-09-06 06:12:06,364-8044-DEBUG-called function check_user
+2023-09-06 06:12:06,364-8044-DEBUG-check_user process done!
+2023-09-06 06:13:06,887-6032-DEBUG-called function main
+2023-09-06 06:13:06,887-6032-DEBUG-called function create_connection
+2023-09-06 06:13:06,887-6032-DEBUG-create_connection process done!
+2023-09-06 06:13:06,888-6032-DEBUG-called function reset_table
+2023-09-06 06:13:06,889-6032-DEBUG-reset_table process done!
+2023-09-06 06:13:06,889-6032-DEBUG-called function men_u
+2023-09-06 06:13:06,889-6032-DEBUG-called function create_connection
+2023-09-06 06:13:06,889-6032-DEBUG-create_connection process done!
+2023-09-06 06:13:12,142-6032-DEBUG-called function login
+2023-09-06 06:13:12,143-6032-DEBUG-called function check_user
+2023-09-06 06:13:12,143-6032-DEBUG-check_user process done!
+2023-09-06 06:14:06,454-9144-DEBUG-called function main
+2023-09-06 06:14:06,455-9144-DEBUG-called function create_connection
+2023-09-06 06:14:06,455-9144-DEBUG-create_connection process done!
+2023-09-06 06:14:06,455-9144-DEBUG-called function reset_table
+2023-09-06 06:14:06,456-9144-DEBUG-reset_table process done!
+2023-09-06 06:14:06,456-9144-DEBUG-called function men_u
+2023-09-06 06:14:06,456-9144-DEBUG-called function create_connection
+2023-09-06 06:14:06,457-9144-DEBUG-create_connection process done!
+2023-09-06 06:14:11,061-9144-DEBUG-called function login
+2023-09-06 06:14:11,062-9144-DEBUG-called function check_user
+2023-09-06 06:14:11,062-9144-DEBUG-check_user process done!
+2023-09-06 06:14:40,812-6544-DEBUG-called function main
+2023-09-06 06:14:40,813-6544-DEBUG-called function create_connection
+2023-09-06 06:14:40,814-6544-DEBUG-create_connection process done!
+2023-09-06 06:14:40,814-6544-DEBUG-called function reset_table
+2023-09-06 06:14:40,815-6544-DEBUG-reset_table process done!
+2023-09-06 06:14:40,816-6544-DEBUG-called function men_u
+2023-09-06 06:14:40,816-6544-DEBUG-called function create_connection
+2023-09-06 06:14:40,816-6544-DEBUG-create_connection process done!
+2023-09-06 06:14:49,556-6544-DEBUG-called function login
+2023-09-06 06:14:49,557-6544-DEBUG-called function check_user
+2023-09-06 06:14:49,557-6544-DEBUG-check_user process done!
+2023-09-06 06:15:21,677-6544-DEBUG-main process done!
+2023-09-06 06:15:23,349-4200-DEBUG-called function main
+2023-09-06 06:15:23,350-4200-DEBUG-called function create_connection
+2023-09-06 06:15:23,351-4200-DEBUG-create_connection process done!
+2023-09-06 06:15:23,351-4200-DEBUG-called function reset_table
+2023-09-06 06:15:23,352-4200-DEBUG-reset_table process done!
+2023-09-06 06:15:23,352-4200-DEBUG-called function men_u
+2023-09-06 06:15:23,352-4200-DEBUG-called function create_connection
+2023-09-06 06:15:23,353-4200-DEBUG-create_connection process done!
+2023-09-06 06:15:28,863-4200-DEBUG-called function login
+2023-09-06 06:15:28,864-4200-DEBUG-called function check_user
+2023-09-06 06:15:28,864-4200-DEBUG-check_user process done!
+2023-09-06 06:15:35,699-4200-DEBUG-main process done!
+2023-09-06 06:15:37,564-1216-DEBUG-called function main
+2023-09-06 06:15:37,565-1216-DEBUG-called function create_connection
+2023-09-06 06:15:37,566-1216-DEBUG-create_connection process done!
+2023-09-06 06:15:37,567-1216-DEBUG-called function reset_table
+2023-09-06 06:15:37,567-1216-DEBUG-reset_table process done!
+2023-09-06 06:15:37,568-1216-DEBUG-called function men_u
+2023-09-06 06:15:37,568-1216-DEBUG-called function create_connection
+2023-09-06 06:15:37,568-1216-DEBUG-create_connection process done!
+2023-09-06 06:15:42,003-1216-DEBUG-called function login
+2023-09-06 06:15:42,004-1216-DEBUG-called function check_user
+2023-09-06 06:15:42,005-1216-DEBUG-check_user process done!
+2023-09-06 06:16:07,470-1216-DEBUG-main process done!
+2023-09-06 06:17:15,064-11640-DEBUG-called function main
+2023-09-06 06:17:15,064-11640-DEBUG-called function create_connection
+2023-09-06 06:17:15,065-11640-DEBUG-create_connection process done!
+2023-09-06 06:17:15,065-11640-DEBUG-called function reset_table
+2023-09-06 06:17:15,514-11640-DEBUG-reset_table process done!
+2023-09-06 06:17:15,514-11640-DEBUG-called function men_u
+2023-09-06 06:17:15,514-11640-DEBUG-called function create_connection
+2023-09-06 06:17:15,515-11640-DEBUG-create_connection process done!
+2023-09-06 06:17:22,564-11640-DEBUG-called function login
+2023-09-06 06:17:22,565-11640-DEBUG-called function check_user
+2023-09-06 06:17:22,565-11640-DEBUG-check_user process done!
+2023-09-06 06:17:22,863-11640-DEBUG-login process done!
+2023-09-06 06:18:26,982-11640-DEBUG-main process done!
+2023-09-06 17:11:40,787-8480-DEBUG-called function main
+2023-09-06 17:11:40,787-8480-DEBUG-called function create_connection
+2023-09-06 17:11:40,788-8480-DEBUG-create_connection process done!
+2023-09-06 17:11:40,788-8480-DEBUG-called function reset_table
+2023-09-06 17:11:41,157-8480-DEBUG-reset_table process done!
+2023-09-06 17:11:41,157-8480-DEBUG-called function men_u
+2023-09-06 17:11:41,157-8480-DEBUG-called function create_connection
+2023-09-06 17:11:41,158-8480-DEBUG-create_connection process done!
+2023-09-06 17:11:46,850-8480-DEBUG-called function login
+2023-09-06 17:11:46,851-8480-DEBUG-called function check_user
+2023-09-06 17:11:46,851-8480-DEBUG-check_user process done!
+2023-09-06 17:11:47,139-8480-DEBUG-login process done!
+2023-09-06 17:11:50,959-8480-DEBUG-called function show_products
+2023-09-06 17:11:50,960-8480-DEBUG-show_products process done!
+2023-09-06 17:12:26,276-8480-DEBUG-called function insert_into_cart
+2023-09-06 17:12:26,276-8480-DEBUG-called function check_into_cart
+2023-09-06 17:12:26,277-8480-DEBUG-check_into_cart process done!
+2023-09-06 17:12:26,277-8480-DEBUG-called function check_products
+2023-09-06 17:12:26,278-8480-DEBUG-check_products process done!
+2023-09-06 17:12:26,814-8480-DEBUG-insert_into_cart process done!
+2023-09-06 17:12:34,602-8480-DEBUG-called function insert_into_cart
+2023-09-06 17:12:34,603-8480-DEBUG-called function check_into_cart
+2023-09-06 17:12:34,603-8480-DEBUG-check_into_cart process done!
+2023-09-06 17:12:34,603-8480-DEBUG-insert_into_cart process done!
+2023-09-06 17:19:37,722-8480-DEBUG-main process done!
+2023-09-06 17:23:08,967-2512-DEBUG-called function main
+2023-09-06 17:23:08,968-2512-DEBUG-called function create_connection
+2023-09-06 17:23:08,969-2512-DEBUG-create_connection process done!
+2023-09-06 17:23:08,969-2512-DEBUG-called function reset_table
+2023-09-06 17:23:09,432-2512-DEBUG-reset_table process done!
+2023-09-06 17:23:09,557-2512-DEBUG-called function men_u
+2023-09-06 17:23:09,557-2512-DEBUG-called function create_connection
+2023-09-06 17:23:09,558-2512-DEBUG-create_connection process done!
+2023-09-06 17:23:15,009-2512-DEBUG-called function login
+2023-09-06 17:23:15,010-2512-DEBUG-called function check_user
+2023-09-06 17:23:15,010-2512-DEBUG-check_user process done!
+2023-09-06 17:23:15,243-2512-DEBUG-login process done!
+2023-09-06 17:23:24,129-2512-DEBUG-called function login
+2023-09-06 17:23:24,129-2512-DEBUG-login process done!
+2023-09-06 17:39:02,599-2512-DEBUG-main process done!
+2023-09-06 17:39:03,001-4644-DEBUG-called function main
+2023-09-06 17:39:03,001-4644-DEBUG-called function create_connection
+2023-09-06 17:39:03,001-4644-DEBUG-create_connection process done!
+2023-09-06 17:39:03,002-4644-DEBUG-called function reset_table
+2023-09-06 17:39:03,197-4644-DEBUG-reset_table process done!
+2023-09-06 17:39:03,198-4644-DEBUG-called function men_u
+2023-09-06 17:39:03,198-4644-DEBUG-called function create_connection
+2023-09-06 17:39:03,198-4644-DEBUG-create_connection process done!
+2023-09-06 17:39:33,953-4644-DEBUG-main process done!
+2023-09-06 17:39:34,171-10456-DEBUG-called function main
+2023-09-06 17:39:34,171-10456-DEBUG-called function create_connection
+2023-09-06 17:39:34,172-10456-DEBUG-create_connection process done!
+2023-09-06 17:39:34,172-10456-DEBUG-called function reset_table
+2023-09-06 17:39:34,173-10456-DEBUG-reset_table process done!
+2023-09-06 17:39:34,173-10456-DEBUG-called function men_u
+2023-09-06 17:39:34,173-10456-DEBUG-called function create_connection
+2023-09-06 17:39:34,173-10456-DEBUG-create_connection process done!
+2023-09-06 17:41:00,393-10456-DEBUG-main process done!
+2023-09-06 17:41:00,921-6012-DEBUG-called function main
+2023-09-06 17:41:00,921-6012-DEBUG-called function create_connection
+2023-09-06 17:41:00,922-6012-DEBUG-create_connection process done!
+2023-09-06 17:41:00,922-6012-DEBUG-called function reset_table
+2023-09-06 17:41:00,923-6012-DEBUG-reset_table process done!
+2023-09-06 17:41:00,923-6012-DEBUG-called function men_u
+2023-09-06 17:41:00,923-6012-DEBUG-called function create_connection
+2023-09-06 17:41:00,923-6012-DEBUG-create_connection process done!
+2023-09-06 17:41:39,979-11748-DEBUG-called function main
+2023-09-06 17:41:39,979-11748-DEBUG-called function create_connection
+2023-09-06 17:41:39,979-11748-DEBUG-create_connection process done!
+2023-09-06 17:41:39,979-11748-DEBUG-called function reset_table
+2023-09-06 17:41:39,980-11748-DEBUG-reset_table process done!
+2023-09-06 17:41:39,980-11748-DEBUG-called function men_u
+2023-09-06 17:41:39,981-11748-DEBUG-called function create_connection
+2023-09-06 17:41:39,981-11748-DEBUG-create_connection process done!
+2023-09-06 17:42:23,244-9548-DEBUG-called function main
+2023-09-06 17:42:23,244-9548-DEBUG-called function create_connection
+2023-09-06 17:42:23,245-9548-DEBUG-create_connection process done!
+2023-09-06 17:42:23,245-9548-DEBUG-called function reset_table
+2023-09-06 17:42:23,246-9548-DEBUG-reset_table process done!
+2023-09-06 17:42:23,246-9548-DEBUG-called function men_u
+2023-09-06 17:42:23,246-9548-DEBUG-called function create_connection
+2023-09-06 17:42:23,246-9548-DEBUG-create_connection process done!
+2023-09-06 17:42:36,784-11852-DEBUG-called function main
+2023-09-06 17:42:36,784-11852-DEBUG-called function create_connection
+2023-09-06 17:42:36,785-11852-DEBUG-create_connection process done!
+2023-09-06 17:42:36,785-11852-DEBUG-called function reset_table
+2023-09-06 17:42:36,786-11852-DEBUG-reset_table process done!
+2023-09-06 17:42:36,786-11852-DEBUG-called function men_u
+2023-09-06 17:42:36,786-11852-DEBUG-called function create_connection
+2023-09-06 17:42:36,786-11852-DEBUG-create_connection process done!
+2023-09-06 17:42:52,702-7136-DEBUG-called function main
+2023-09-06 17:42:52,703-7136-DEBUG-called function create_connection
+2023-09-06 17:42:52,703-7136-DEBUG-create_connection process done!
+2023-09-06 17:42:52,703-7136-DEBUG-called function reset_table
+2023-09-06 17:42:52,704-7136-DEBUG-reset_table process done!
+2023-09-06 17:42:52,704-7136-DEBUG-called function men_u
+2023-09-06 17:42:52,704-7136-DEBUG-called function create_connection
+2023-09-06 17:42:52,705-7136-DEBUG-create_connection process done!
+2023-09-06 17:43:16,411-11804-DEBUG-called function main
+2023-09-06 17:43:16,412-11804-DEBUG-called function create_connection
+2023-09-06 17:43:16,412-11804-DEBUG-create_connection process done!
+2023-09-06 17:43:16,412-11804-DEBUG-called function reset_table
+2023-09-06 17:43:16,413-11804-DEBUG-reset_table process done!
+2023-09-06 17:43:16,413-11804-DEBUG-called function men_u
+2023-09-06 17:43:16,413-11804-DEBUG-called function create_connection
+2023-09-06 17:43:16,413-11804-DEBUG-create_connection process done!
+2023-09-06 17:44:13,619-11804-DEBUG-main process done!
+2023-09-06 17:44:14,028-11204-DEBUG-called function main
+2023-09-06 17:44:14,028-11204-DEBUG-called function create_connection
+2023-09-06 17:44:14,029-11204-DEBUG-create_connection process done!
+2023-09-06 17:44:14,029-11204-DEBUG-called function reset_table
+2023-09-06 17:44:14,029-11204-DEBUG-reset_table process done!
+2023-09-06 17:44:14,030-11204-DEBUG-called function men_u
+2023-09-06 17:44:14,030-11204-DEBUG-called function create_connection
+2023-09-06 17:44:14,030-11204-DEBUG-create_connection process done!
+2023-09-06 17:45:54,810-9884-DEBUG-called function main
+2023-09-06 17:45:54,810-9884-DEBUG-called function create_connection
+2023-09-06 17:45:54,810-9884-DEBUG-create_connection process done!
+2023-09-06 17:45:54,810-9884-DEBUG-called function reset_table
+2023-09-06 17:45:54,811-9884-DEBUG-reset_table process done!
+2023-09-06 17:45:54,811-9884-DEBUG-called function men_u
+2023-09-06 17:45:54,811-9884-DEBUG-called function create_connection
+2023-09-06 17:45:54,812-9884-DEBUG-create_connection process done!
+2023-09-06 17:47:34,481-6444-DEBUG-called function main
+2023-09-06 17:47:34,481-6444-DEBUG-called function create_connection
+2023-09-06 17:47:34,481-6444-DEBUG-create_connection process done!
+2023-09-06 17:47:34,482-6444-DEBUG-called function reset_table
+2023-09-06 17:47:34,482-6444-DEBUG-reset_table process done!
+2023-09-06 17:47:34,482-6444-DEBUG-called function men_u
+2023-09-06 17:47:34,482-6444-DEBUG-called function create_connection
+2023-09-06 17:47:34,482-6444-DEBUG-create_connection process done!
+2023-09-06 17:51:00,516-8880-DEBUG-called function main
+2023-09-06 17:51:00,516-8880-DEBUG-called function create_connection
+2023-09-06 17:51:00,516-8880-DEBUG-create_connection process done!
+2023-09-06 17:51:00,516-8880-DEBUG-called function reset_table
+2023-09-06 17:51:00,517-8880-DEBUG-reset_table process done!
+2023-09-06 17:51:00,517-8880-DEBUG-called function men_u
+2023-09-06 17:51:00,517-8880-DEBUG-called function create_connection
+2023-09-06 17:51:00,517-8880-DEBUG-create_connection process done!
+2023-09-06 17:51:54,267-7232-DEBUG-called function main
+2023-09-06 17:51:54,267-7232-DEBUG-called function create_connection
+2023-09-06 17:51:54,268-7232-DEBUG-create_connection process done!
+2023-09-06 17:51:54,268-7232-DEBUG-called function reset_table
+2023-09-06 17:51:54,269-7232-DEBUG-reset_table process done!
+2023-09-06 17:51:54,269-7232-DEBUG-called function men_u
+2023-09-06 17:51:54,269-7232-DEBUG-called function create_connection
+2023-09-06 17:51:54,270-7232-DEBUG-create_connection process done!
+2023-09-06 17:51:57,465-7232-DEBUG-called function submit
+2023-09-06 17:51:57,466-7232-DEBUG-submit process done!
+2023-09-06 17:52:02,573-7232-DEBUG-called function login
+2023-09-06 17:52:02,573-7232-DEBUG-called function check_user
+2023-09-06 17:52:02,574-7232-DEBUG-check_user process done!
+2023-09-06 17:52:02,917-7232-DEBUG-login process done!
+2023-09-06 17:52:05,863-7232-DEBUG-called function submit
+2023-09-06 17:52:05,864-7232-DEBUG-called function check_cart
+2023-09-06 17:52:36,283-12208-DEBUG-called function main
+2023-09-06 17:52:36,283-12208-DEBUG-called function create_connection
+2023-09-06 17:52:36,284-12208-DEBUG-create_connection process done!
+2023-09-06 17:52:36,284-12208-DEBUG-called function reset_table
+2023-09-06 17:52:36,689-12208-DEBUG-reset_table process done!
+2023-09-06 17:52:36,689-12208-DEBUG-called function men_u
+2023-09-06 17:52:36,689-12208-DEBUG-called function create_connection
+2023-09-06 17:52:36,690-12208-DEBUG-create_connection process done!
+2023-09-06 17:52:41,493-12208-DEBUG-called function login
+2023-09-06 17:52:41,494-12208-DEBUG-called function check_user
+2023-09-06 17:52:41,494-12208-DEBUG-check_user process done!
+2023-09-06 17:52:41,809-12208-DEBUG-login process done!
+2023-09-06 17:52:44,165-12208-DEBUG-called function submit
+2023-09-06 17:52:44,166-12208-DEBUG-called function check_cart
+2023-09-06 17:52:44,167-12208-DEBUG-check_cart process done!
+2023-09-06 17:52:44,167-12208-DEBUG-called function check_cart
+2023-09-06 17:52:44,167-12208-DEBUG-check_cart process done!
+2023-09-06 17:52:44,167-12208-DEBUG-called function cart_pay
+2023-09-06 17:53:59,740-11140-DEBUG-called function main
+2023-09-06 17:53:59,740-11140-DEBUG-called function create_connection
+2023-09-06 17:53:59,741-11140-DEBUG-create_connection process done!
+2023-09-06 17:53:59,741-11140-DEBUG-called function reset_table
+2023-09-06 17:54:00,229-11140-DEBUG-reset_table process done!
+2023-09-06 17:54:00,230-11140-DEBUG-called function men_u
+2023-09-06 17:54:00,230-11140-DEBUG-called function create_connection
+2023-09-06 17:54:00,230-11140-DEBUG-create_connection process done!
+2023-09-06 17:54:05,727-11140-DEBUG-called function login
+2023-09-06 17:54:05,728-11140-DEBUG-called function check_user
+2023-09-06 17:54:05,728-11140-DEBUG-check_user process done!
+2023-09-06 17:54:06,027-11140-DEBUG-login process done!
+2023-09-06 17:54:10,059-11140-DEBUG-called function show_cart
+2023-09-06 17:54:10,060-11140-DEBUG-show_cart process done!
+2023-09-06 17:54:14,875-11140-DEBUG-main process done!
+2023-09-06 17:54:20,707-11476-DEBUG-called function main
+2023-09-06 17:54:20,709-11476-DEBUG-called function create_connection
+2023-09-06 17:54:20,709-11476-DEBUG-create_connection process done!
+2023-09-06 17:54:20,709-11476-DEBUG-called function reset_table
+2023-09-06 17:54:20,907-11476-DEBUG-reset_table process done!
+2023-09-06 17:54:20,908-11476-DEBUG-called function men_u
+2023-09-06 17:54:20,909-11476-DEBUG-called function create_connection
+2023-09-06 17:54:20,912-11476-DEBUG-create_connection process done!
+2023-09-06 17:54:26,511-11476-DEBUG-called function login
+2023-09-06 17:54:26,512-11476-DEBUG-called function check_user
+2023-09-06 17:54:26,512-11476-DEBUG-check_user process done!
+2023-09-06 17:54:35,273-11476-DEBUG-login process done!
+2023-09-06 17:54:38,294-11476-DEBUG-called function submit
+2023-09-06 17:54:38,295-11476-DEBUG-called function check_cart
+2023-09-06 17:54:38,296-11476-DEBUG-check_cart process done!
+2023-09-06 17:54:38,296-11476-DEBUG-called function check_cart
+2023-09-06 17:54:38,297-11476-DEBUG-check_cart process done!
+2023-09-06 17:54:38,297-11476-DEBUG-called function cart_pay
+2023-09-06 17:55:17,781-2328-DEBUG-called function main
+2023-09-06 17:55:17,782-2328-DEBUG-called function create_connection
+2023-09-06 17:55:17,782-2328-DEBUG-create_connection process done!
+2023-09-06 17:55:17,782-2328-DEBUG-called function reset_table
+2023-09-06 17:55:17,996-2328-DEBUG-reset_table process done!
+2023-09-06 17:55:17,996-2328-DEBUG-called function men_u
+2023-09-06 17:55:17,996-2328-DEBUG-called function create_connection
+2023-09-06 17:55:17,997-2328-DEBUG-create_connection process done!
+2023-09-06 17:55:22,622-2328-DEBUG-called function login
+2023-09-06 17:55:22,623-2328-DEBUG-called function check_user
+2023-09-06 17:55:22,623-2328-DEBUG-check_user process done!
+2023-09-06 17:55:22,913-2328-DEBUG-login process done!
+2023-09-06 17:55:24,539-2328-DEBUG-called function show_cart
+2023-09-06 17:55:24,539-2328-DEBUG-show_cart process done!
+2023-09-06 17:55:26,801-2328-DEBUG-called function submit
+2023-09-06 17:55:26,802-2328-DEBUG-called function check_cart
+2023-09-06 17:55:26,802-2328-DEBUG-check_cart process done!
+2023-09-06 17:55:26,802-2328-DEBUG-called function check_cart
+2023-09-06 17:55:26,803-2328-DEBUG-check_cart process done!
+2023-09-06 17:55:26,803-2328-DEBUG-called function cart_pay
+2023-09-06 17:55:26,983-2328-DEBUG-cart_pay process done!
+2023-09-06 17:55:26,984-2328-DEBUG-called function update_products_list
+2023-09-06 17:55:27,093-2328-DEBUG-update_products_list process done!
+2023-09-06 17:55:27,093-2328-DEBUG-called function update_products_list
+2023-09-06 17:55:27,183-2328-DEBUG-update_products_list process done!
+2023-09-06 17:55:51,504-11728-DEBUG-called function main
+2023-09-06 17:55:51,504-11728-DEBUG-called function create_connection
+2023-09-06 17:55:51,504-11728-DEBUG-create_connection process done!
+2023-09-06 17:55:51,504-11728-DEBUG-called function reset_table
+2023-09-06 17:55:51,652-11728-DEBUG-reset_table process done!
+2023-09-06 17:55:51,652-11728-DEBUG-called function men_u
+2023-09-06 17:55:51,652-11728-DEBUG-called function create_connection
+2023-09-06 17:55:51,653-11728-DEBUG-create_connection process done!
+2023-09-06 17:55:56,360-11728-DEBUG-called function login
+2023-09-06 17:55:56,361-11728-DEBUG-called function check_user
+2023-09-06 17:55:56,361-11728-DEBUG-check_user process done!
+2023-09-06 17:55:56,578-11728-DEBUG-login process done!
+2023-09-06 17:55:58,273-11728-DEBUG-called function show_cart
+2023-09-06 17:55:58,273-11728-DEBUG-show_cart process done!
+2023-09-06 17:56:00,296-11728-DEBUG-called function submit
+2023-09-06 17:56:00,297-11728-DEBUG-called function cart_pay
+2023-09-06 17:56:00,298-11728-DEBUG-cart_pay process done!
+2023-09-06 17:57:19,139-2604-DEBUG-called function main
+2023-09-06 17:57:19,140-2604-DEBUG-called function create_connection
+2023-09-06 17:57:19,141-2604-DEBUG-create_connection process done!
+2023-09-06 17:57:19,141-2604-DEBUG-called function reset_table
+2023-09-06 17:57:19,376-2604-DEBUG-reset_table process done!
+2023-09-06 17:57:19,376-2604-DEBUG-called function men_u
+2023-09-06 17:57:19,376-2604-DEBUG-called function create_connection
+2023-09-06 17:57:19,377-2604-DEBUG-create_connection process done!
+2023-09-06 17:57:19,490-2604-DEBUG-main process done!
+2023-09-06 17:57:20,648-1872-DEBUG-called function main
+2023-09-06 17:57:20,648-1872-DEBUG-called function create_connection
+2023-09-06 17:57:20,648-1872-DEBUG-create_connection process done!
+2023-09-06 17:57:20,648-1872-DEBUG-called function reset_table
+2023-09-06 17:57:20,649-1872-DEBUG-reset_table process done!
+2023-09-06 17:57:20,649-1872-DEBUG-called function men_u
+2023-09-06 17:57:20,649-1872-DEBUG-called function create_connection
+2023-09-06 17:57:20,649-1872-DEBUG-create_connection process done!
+2023-09-06 17:57:26,986-1872-DEBUG-called function login
+2023-09-06 17:57:26,987-1872-DEBUG-called function check_user
+2023-09-06 17:57:26,987-1872-DEBUG-check_user process done!
+2023-09-06 17:57:30,459-12092-DEBUG-called function main
+2023-09-06 17:57:30,459-12092-DEBUG-called function create_connection
+2023-09-06 17:57:30,459-12092-DEBUG-create_connection process done!
+2023-09-06 17:57:30,460-12092-DEBUG-called function reset_table
+2023-09-06 17:57:30,461-12092-DEBUG-reset_table process done!
+2023-09-06 17:57:30,461-12092-DEBUG-called function men_u
+2023-09-06 17:57:30,461-12092-DEBUG-called function create_connection
+2023-09-06 17:57:30,462-12092-DEBUG-create_connection process done!
+2023-09-06 17:57:37,626-12092-DEBUG-called function signup
+2023-09-06 17:57:37,627-12092-DEBUG-called function check_user
+2023-09-06 17:57:37,627-12092-DEBUG-check_user process done!
+2023-09-06 17:57:49,272-12092-DEBUG-signup process done!
+2023-09-06 17:57:54,230-12092-DEBUG-called function show_products
+2023-09-06 17:57:54,231-12092-DEBUG-show_products process done!
+2023-09-06 17:58:08,165-12092-DEBUG-called function insert_into_cart
+2023-09-06 17:58:08,165-12092-DEBUG-called function check_into_cart
+2023-09-06 17:58:08,166-12092-DEBUG-check_into_cart process done!
+2023-09-06 17:58:08,166-12092-DEBUG-called function check_products
+2023-09-06 17:58:08,166-12092-DEBUG-check_products process done!
+2023-09-06 17:58:08,274-12092-DEBUG-insert_into_cart process done!
+2023-09-06 17:58:17,151-12092-DEBUG-called function insert_into_cart
+2023-09-06 17:58:17,151-12092-DEBUG-called function check_into_cart
+2023-09-06 17:58:17,151-12092-DEBUG-check_into_cart process done!
+2023-09-06 17:58:17,151-12092-DEBUG-called function check_products
+2023-09-06 17:58:17,152-12092-DEBUG-check_products process done!
+2023-09-06 17:58:17,302-12092-DEBUG-insert_into_cart process done!
+2023-09-06 17:58:24,255-12092-DEBUG-called function modify_cart
+2023-09-06 17:58:24,358-12092-DEBUG-modify_cart process done!
+2023-09-06 17:58:29,695-12092-DEBUG-called function show_cart
+2023-09-06 17:58:29,695-12092-DEBUG-show_cart process done!
+2023-09-06 18:00:11,352-1296-DEBUG-called function main
+2023-09-06 18:00:11,352-1296-DEBUG-called function create_connection
+2023-09-06 18:00:11,352-1296-DEBUG-create_connection process done!
+2023-09-06 18:00:11,352-1296-DEBUG-called function reset_table
+2023-09-06 18:00:11,810-1296-DEBUG-reset_table process done!
+2023-09-06 18:00:11,810-1296-DEBUG-called function men_u
+2023-09-06 18:00:11,810-1296-DEBUG-called function create_connection
+2023-09-06 18:00:11,811-1296-DEBUG-create_connection process done!
+2023-09-06 18:00:17,652-1296-DEBUG-called function login
+2023-09-06 18:00:17,653-1296-DEBUG-called function check_user
+2023-09-06 18:00:17,653-1296-DEBUG-check_user process done!
+2023-09-06 18:00:17,940-1296-DEBUG-login process done!
+2023-09-06 18:00:22,281-1296-DEBUG-called function show_cart
+2023-09-06 18:00:22,281-1296-DEBUG-show_cart process done!
+2023-09-06 18:03:47,996-6992-DEBUG-called function main
+2023-09-06 18:03:47,996-6992-DEBUG-called function create_connection
+2023-09-06 18:03:47,996-6992-DEBUG-create_connection process done!
+2023-09-06 18:03:47,996-6992-DEBUG-called function reset_table
+2023-09-06 18:03:48,214-6992-DEBUG-reset_table process done!
+2023-09-06 18:03:48,215-6992-DEBUG-called function men_u
+2023-09-06 18:03:48,215-6992-DEBUG-called function create_connection
+2023-09-06 18:03:48,215-6992-DEBUG-create_connection process done!
+2023-09-06 18:03:53,716-6992-DEBUG-called function login
+2023-09-06 18:03:53,717-6992-DEBUG-called function check_user
+2023-09-06 18:03:53,718-6992-DEBUG-check_user process done!
+2023-09-06 18:03:54,030-6992-DEBUG-login process done!
+2023-09-06 18:04:02,833-6992-DEBUG-called function show_cart
+2023-09-06 18:04:02,834-6992-DEBUG-show_cart process done!
+2023-09-06 18:04:16,554-6992-DEBUG-main process done!
+2023-09-06 18:06:21,936-7972-DEBUG-called function main
+2023-09-06 18:06:21,937-7972-DEBUG-called function create_connection
+2023-09-06 18:06:21,937-7972-DEBUG-create_connection process done!
+2023-09-06 18:06:21,937-7972-DEBUG-called function reset_table
+2023-09-06 18:06:22,223-7972-DEBUG-reset_table process done!
+2023-09-06 18:06:22,223-7972-DEBUG-called function men_u
+2023-09-06 18:06:22,223-7972-DEBUG-called function create_connection
+2023-09-06 18:06:22,224-7972-DEBUG-create_connection process done!
+2023-09-06 18:06:30,686-11304-DEBUG-called function main
+2023-09-06 18:06:30,687-11304-DEBUG-called function create_connection
+2023-09-06 18:06:30,688-11304-DEBUG-create_connection process done!
+2023-09-06 18:06:30,688-11304-DEBUG-called function reset_table
+2023-09-06 18:06:30,689-11304-DEBUG-reset_table process done!
+2023-09-06 18:06:30,689-11304-DEBUG-called function men_u
+2023-09-06 18:06:30,689-11304-DEBUG-called function create_connection
+2023-09-06 18:06:30,690-11304-DEBUG-create_connection process done!
+2023-09-06 18:06:33,478-10936-DEBUG-called function main
+2023-09-06 18:06:33,479-10936-DEBUG-called function create_connection
+2023-09-06 18:06:33,479-10936-DEBUG-create_connection process done!
+2023-09-06 18:06:33,480-10936-DEBUG-called function reset_table
+2023-09-06 18:06:33,480-10936-DEBUG-reset_table process done!
+2023-09-06 18:06:33,480-10936-DEBUG-called function men_u
+2023-09-06 18:06:33,480-10936-DEBUG-called function create_connection
+2023-09-06 18:06:33,481-10936-DEBUG-create_connection process done!
+2023-09-06 18:18:33,424-1356-DEBUG-called function main
+2023-09-06 18:18:33,424-1356-DEBUG-called function create_connection
+2023-09-06 18:18:33,425-1356-DEBUG-create_connection process done!
+2023-09-06 18:18:33,425-1356-DEBUG-called function reset_table
+2023-09-06 18:18:33,426-1356-DEBUG-reset_table process done!
+2023-09-06 18:18:33,426-1356-DEBUG-called function men_u
+2023-09-06 18:18:33,426-1356-DEBUG-called function create_connection
+2023-09-06 18:18:33,426-1356-DEBUG-create_connection process done!
+2023-09-06 18:18:43,359-1356-DEBUG-called function login
+2023-09-06 18:18:43,360-1356-DEBUG-called function check_user
+2023-09-06 18:18:43,360-1356-DEBUG-check_user process done!
+2023-09-06 18:18:43,730-1356-DEBUG-login process done!
+2023-09-06 18:18:45,661-1356-DEBUG-called function show_cart
+2023-09-06 18:18:45,662-1356-DEBUG-show_cart process done!
+2023-09-06 19:17:09,078-12880-DEBUG-called function main
+2023-09-06 19:17:09,078-12880-DEBUG-called function create_connection
+2023-09-06 19:17:09,078-12880-DEBUG-create_connection process done!
+2023-09-06 19:17:09,078-12880-DEBUG-called function reset_table
+2023-09-06 19:17:09,529-12880-DEBUG-reset_table process done!
+2023-09-06 19:17:09,529-12880-DEBUG-called function men_u
+2023-09-06 19:17:09,529-12880-DEBUG-called function create_connection
+2023-09-06 19:17:09,530-12880-DEBUG-create_connection process done!
+2023-09-07 11:05:21,313-16368-DEBUG-called function main
+2023-09-07 11:05:21,315-16368-DEBUG-called function create_connection
+2023-09-07 11:05:21,343-16368-DEBUG-create_connection process done!
+2023-09-07 11:05:21,344-16368-DEBUG-called function reset_table
+2023-09-07 11:05:21,357-16368-DEBUG-reset_table process done!
+2023-09-07 11:05:21,357-16368-DEBUG-called function men_u
+2023-09-07 11:05:21,359-16368-DEBUG-called function create_connection
+2023-09-07 11:05:21,361-16368-DEBUG-create_connection process done!
+2023-09-07 11:06:00,990-11872-DEBUG-called function main
+2023-09-07 11:06:00,990-11872-DEBUG-called function create_connection
+2023-09-07 11:06:00,990-11872-DEBUG-create_connection process done!
+2023-09-07 11:06:00,991-11872-DEBUG-called function reset_table
+2023-09-07 11:06:00,992-11872-DEBUG-reset_table process done!
+2023-09-07 11:06:00,992-11872-DEBUG-called function men_u
+2023-09-07 11:06:00,992-11872-DEBUG-called function create_connection
+2023-09-07 11:06:00,992-11872-DEBUG-create_connection process done!
+2023-09-07 11:06:07,296-11872-DEBUG-called function signup
+2023-09-07 11:06:07,297-11872-DEBUG-called function check_user
+2023-09-07 11:06:07,297-11872-DEBUG-check_user process done!
+2023-09-07 11:06:07,297-11872-DEBUG-signup process done!
+2023-09-07 11:06:10,789-13828-DEBUG-called function main
+2023-09-07 11:06:10,789-13828-DEBUG-called function create_connection
+2023-09-07 11:06:10,790-13828-DEBUG-create_connection process done!
+2023-09-07 11:06:10,790-13828-DEBUG-called function reset_table
+2023-09-07 11:06:10,791-13828-DEBUG-reset_table process done!
+2023-09-07 11:06:10,791-13828-DEBUG-called function men_u
+2023-09-07 11:06:10,791-13828-DEBUG-called function create_connection
+2023-09-07 11:06:10,791-13828-DEBUG-create_connection process done!
+2023-09-07 11:06:22,590-13828-DEBUG-called function signup
+2023-09-07 11:06:22,592-13828-DEBUG-called function check_user
+2023-09-07 11:06:22,593-13828-DEBUG-check_user process done!
+2023-09-07 11:06:26,144-13828-DEBUG-signup process done!
+2023-09-07 11:06:31,360-13828-DEBUG-called function show_products
+2023-09-07 11:06:31,360-13828-DEBUG-show_products process done!
+2023-09-07 11:07:15,950-13828-DEBUG-called function insert_into_cart
+2023-09-07 11:07:15,951-13828-DEBUG-called function check_into_cart
+2023-09-07 11:07:15,951-13828-DEBUG-check_into_cart process done!
+2023-09-07 11:07:15,951-13828-DEBUG-called function check_products
+2023-09-07 11:07:15,952-13828-DEBUG-check_products process done!
+2023-09-07 11:07:16,373-13828-DEBUG-insert_into_cart process done!
+2023-09-07 11:08:03,363-13828-DEBUG-called function show_cart
+2023-09-07 11:08:03,363-13828-DEBUG-show_cart process done!

@@ -1,0 +1,126 @@
+13848-INFO-Elapsed time: 3.65147 seconds
+13848-INFO-Elapsed time: 0.00000 seconds
+1324-INFO-Elapsed time: 0.00000 seconds
+1324-INFO-Elapsed time: 0.00000 seconds
+1324-INFO-Elapsed time: 3.52458 seconds
+1324-INFO-Elapsed time: 0.00000 seconds
+1324-INFO-Elapsed time: 0.00000 seconds
+1324-INFO-Elapsed time: 0.00000 seconds
+2023-09-07 12:21:42,356-14816-DEBUG-called function fibonacci
+2023-09-07 12:21:42,357-14816-DEBUG-Memory usage difference: 0.00 B
+2023-09-07 12:21:42,357-14816-DEBUG-Function 'fibonacci' took 0.00 seconds to execute
+2023-09-07 12:24:07,672-10924-DEBUG-called function fibonacci
+2023-09-07 12:24:07,672-10924-DEBUG-Memory usage difference: 0.00 B
+2023-09-07 12:24:07,672-10924-DEBUG-Function 'fibonacci' took 0.00 seconds to execute
+2023-09-07 12:24:07,701-10924-DEBUG-called function factorial
+2023-09-07 12:24:07,702-10924-DEBUG-Memory usage difference: 4096.00 B
+2023-09-07 12:24:07,702-10924-DEBUG-Function 'factorial' took 0.00 seconds to execute
+2023-09-07 12:27:33,233-15228-DEBUG-called function fibonacci
+2023-09-07 12:27:33,233-15228-DEBUG-Memory usage difference: 0.00 B
+2023-09-07 12:27:33,233-15228-DEBUG-Function 'fibonacci' took 0.00 seconds to execute
+2023-09-07 12:27:33,234-15228-DEBUG-called function factorial
+2023-09-07 12:27:33,235-15228-DEBUG-Memory usage difference: 0.00 B
+2023-09-07 12:27:33,235-15228-DEBUG-Function 'factorial' took 0.00 seconds to execute
+2023-09-07 12:27:40,336-4140-DEBUG-called function fibonacci
+2023-09-07 12:27:40,336-4140-DEBUG-Memory usage difference: 0.00 B
+2023-09-07 12:27:40,336-4140-DEBUG-Function 'fibonacci' took 0.00 seconds to execute
+2023-09-07 12:27:40,338-4140-DEBUG-called function factorial
+2023-09-07 12:27:40,338-4140-DEBUG-Memory usage difference: 4096.00 B
+2023-09-07 12:27:40,338-4140-DEBUG-Function 'factorial' took 0.00 seconds to execute
+2023-09-07 12:28:26,787-4184-DEBUG-called function fibonacci
+2023-09-07 12:28:26,788-4184-DEBUG-Memory usage difference: 0.00 B
+2023-09-07 12:28:26,788-4184-DEBUG-Function 'fibonacci' took 0.00 seconds to execute
+2023-09-07 12:28:26,790-4184-DEBUG-called function factorial
+2023-09-07 12:28:26,791-4184-DEBUG-Memory usage difference: 0.00 B
+2023-09-07 12:28:26,791-4184-DEBUG-Function 'factorial' took 0.00 seconds to execute
+2023-09-07 12:28:36,386-16176-DEBUG-called function fibonacci
+2023-09-07 12:28:36,386-16176-DEBUG-Memory usage difference: 0.00 B
+2023-09-07 12:28:36,386-16176-DEBUG-Function 'fibonacci' took 0.00 seconds to execute
+2023-09-07 12:28:36,388-16176-DEBUG-called function factorial
+2023-09-07 12:28:36,388-16176-DEBUG-Memory usage difference: 0.00 B
+2023-09-07 12:28:36,388-16176-DEBUG-Function 'factorial' took 0.00 seconds to execute
+2023-09-07 12:28:52,241-3300-DEBUG-called function fibonacci
+2023-09-07 12:28:52,241-3300-DEBUG-Memory usage difference: 0.00 B
+2023-09-07 12:28:52,241-3300-DEBUG-Function 'fibonacci' took 0.00 seconds to execute
+2023-09-07 12:28:52,243-3300-DEBUG-called function factorial
+2023-09-07 12:28:52,244-3300-DEBUG-Memory usage difference: 0.00 B
+2023-09-07 12:28:52,244-3300-DEBUG-Function 'factorial' took 0.00 seconds to execute
+2023-09-07 12:29:05,895-8072-DEBUG-called function fibonacci
+2023-09-07 12:29:05,895-8072-DEBUG-Memory usage difference: 0.00 B
+2023-09-07 12:29:05,895-8072-DEBUG-Function 'fibonacci' took 0.00 seconds to execute
+2023-09-07 12:29:05,897-8072-DEBUG-called function factorial
+2023-09-07 12:29:05,897-8072-DEBUG-Memory usage difference: 0.00 B
+2023-09-07 12:29:05,897-8072-DEBUG-Function 'factorial' took 0.00 seconds to execute
+2023-09-07 12:29:23,014-3448-DEBUG-called function fibonacci
+2023-09-07 12:29:23,014-3448-DEBUG-Memory usage difference: 0.00 B
+2023-09-07 12:29:23,014-3448-DEBUG-Function 'fibonacci' took 0.00 seconds to execute
+2023-09-07 12:29:23,016-3448-DEBUG-called function factorial
+2023-09-07 12:29:23,016-3448-DEBUG-Memory usage difference: 0.00 B
+2023-09-07 12:29:23,016-3448-DEBUG-Function 'factorial' took 0.00 seconds to execute
+2023-09-07 12:29:35,140-14144-DEBUG-called function fibonacci
+2023-09-07 12:29:35,140-14144-DEBUG-Memory usage difference: 0.00 B
+2023-09-07 12:29:35,140-14144-DEBUG-Function 'fibonacci' took 0.00 seconds to execute
+2023-09-07 12:29:35,142-14144-DEBUG-called function factorial
+2023-09-07 12:29:35,142-14144-DEBUG-Memory usage difference: 0.00 B
+2023-09-07 12:29:35,142-14144-DEBUG-Function 'factorial' took 0.00 seconds to execute
+2023-09-07 12:30:01,511-2428-DEBUG-called function fibonacci
+2023-09-07 12:30:01,511-2428-DEBUG-Memory usage difference: 0.00 B
+2023-09-07 12:30:01,511-2428-DEBUG-Function 'fibonacci' took 0.00 seconds to execute
+2023-09-07 12:30:01,513-2428-DEBUG-called function factorial
+2023-09-07 12:30:01,513-2428-DEBUG-Memory usage difference: 0.00 B
+2023-09-07 12:30:01,513-2428-DEBUG-Function 'factorial' took 0.00 seconds to execute
+2023-09-07 12:30:19,905-16196-DEBUG-called function fibonacci
+2023-09-07 12:30:19,905-16196-DEBUG-Memory usage difference: 0.00 B
+2023-09-07 12:30:19,906-16196-DEBUG-Function 'fibonacci' took 0.00 seconds to execute
+2023-09-07 12:30:19,907-16196-DEBUG-called function factorial
+2023-09-07 12:30:19,907-16196-DEBUG-Memory usage difference: 0.00 B
+2023-09-07 12:30:19,907-16196-DEBUG-Function 'factorial' took 0.00 seconds to execute
+2023-09-07 12:31:03,939-1288-DEBUG-called function fibonacci
+2023-09-07 12:31:03,939-1288-DEBUG-Memory usage difference: 0.00 B
+2023-09-07 12:31:03,939-1288-DEBUG-Function 'fibonacci' took 0.00 seconds to execute
+2023-09-07 12:31:03,940-1288-DEBUG-called function factorial
+2023-09-07 12:31:03,941-1288-DEBUG-Memory usage difference: 0.00 B
+2023-09-07 12:31:03,941-1288-DEBUG-Function 'factorial' took 0.00 seconds to execute
+2023-09-07 12:31:14,909-6120-DEBUG-called function fibonacci
+2023-09-07 12:31:14,909-6120-DEBUG-Memory usage difference: 0.00 B
+2023-09-07 12:31:14,909-6120-DEBUG-Function 'fibonacci' took 0.00 seconds to execute
+2023-09-07 12:31:14,911-6120-DEBUG-called function factorial
+2023-09-07 12:31:14,911-6120-DEBUG-Memory usage difference: 0.00 B
+2023-09-07 12:31:14,911-6120-DEBUG-Function 'factorial' took 0.00 seconds to execute
+2023-09-07 12:31:25,778-1276-DEBUG-called function fibonacci
+2023-09-07 12:31:25,778-1276-DEBUG-Memory usage difference: 0.00 B
+2023-09-07 12:31:25,779-1276-DEBUG-Function 'fibonacci' took 0.00 seconds to execute
+2023-09-07 12:31:25,780-1276-DEBUG-called function factorial
+2023-09-07 12:31:25,780-1276-DEBUG-Memory usage difference: 0.00 B
+2023-09-07 12:31:25,780-1276-DEBUG-Function 'factorial' took 0.00 seconds to execute
+2023-09-07 12:32:17,647-2836-DEBUG-called function fibonacci
+2023-09-07 12:32:17,647-2836-DEBUG-Memory usage difference: 0.00 B
+2023-09-07 12:32:17,647-2836-DEBUG-Function 'fibonacci' took 0.00 seconds to execute
+2023-09-07 12:32:17,649-2836-DEBUG-called function factorial
+2023-09-07 12:32:17,649-2836-DEBUG-Memory usage difference: 0.00 B
+2023-09-07 12:32:17,649-2836-DEBUG-Function 'factorial' took 0.00 seconds to execute
+2023-09-07 12:33:32,649-12716-DEBUG-called function fibonacci
+2023-09-07 12:33:32,649-12716-DEBUG-Memory usage difference: 0.00 B
+2023-09-07 12:33:32,649-12716-DEBUG-Function 'fibonacci' took 0.00 seconds to execute
+2023-09-07 12:33:32,651-12716-DEBUG-called function factorial
+2023-09-07 12:33:32,651-12716-DEBUG-Memory usage difference: 0.00 B
+2023-09-07 12:33:32,651-12716-DEBUG-Function 'factorial' took 0.00 seconds to execute
+2023-09-07 12:47:04,630-8764-DEBUG-called function fibonacci
+2023-09-07 12:47:04,630-8764-DEBUG-Memory usage difference: 0.00 B
+2023-09-07 12:47:04,630-8764-DEBUG-Function 'fibonacci' took 0.00 seconds to execute
+2023-09-07 12:47:04,631-8764-DEBUG-called function factorial
+2023-09-07 12:47:04,631-8764-DEBUG-Memory usage difference: 0.00 B
+2023-09-07 12:47:04,632-8764-DEBUG-Function 'factorial' took 0.00 seconds to execute
+2023-09-08 12:27:13,324-16272-DEBUG-called function fibonacci
+2023-09-08 12:27:44,595-14632-DEBUG-called function fibonacci
+2023-09-08 12:27:44,596-14632-DEBUG-Memory usage difference: 0.00 B
+2023-09-08 12:27:44,596-14632-DEBUG-Function 'fibonacci' took 0.00 seconds to execute
+2023-09-08 12:27:44,597-14632-DEBUG-called function factorial
+2023-09-08 12:27:44,597-14632-DEBUG-Memory usage difference: 0.00 B
+2023-09-08 12:27:44,597-14632-DEBUG-Function 'factorial' took 0.00 seconds to execute
+2023-09-08 12:28:04,222-7040-DEBUG-called function fibonacci
+2023-09-08 12:28:04,222-7040-DEBUG-Memory usage difference: 0.00 B
+2023-09-08 12:28:04,222-7040-DEBUG-Function 'fibonacci' took 0.00 seconds to execute
+2023-09-08 12:28:04,223-7040-DEBUG-called function factorial
+2023-09-08 12:28:04,223-7040-DEBUG-Memory usage difference: 0.00 B
+2023-09-08 12:28:04,223-7040-DEBUG-Function 'factorial' took 0.00 seconds to execute
