@@ -49,19 +49,22 @@ class Events:
             conn.commit()
             return "Event added successfully"
         else:
-            return "Event already exists"
+            raise Exception("Event already exists")
 
 
     @staticmethod
     def removeEvent(event_name):
         conn = sqlite3.connect('tickets.db')
         cursor = conn.cursor()
+        cursor.execute('SELECT id FROM events WHERE name = ?', (event_name,))
+        if not cursor.fetchall():
+            raise Exception("Event not found!")
         cursor.execute('''SELECT * FROM Clients ''')
         clients = cursor.fetchall() #clients[i][2]->events /clients[i][1] ->id_code
         for client in clients:
             t = Tickets()
             t.removeTicket(client[1], event_name)
-        # cursor.execute('DELETE FROM events WHERE name = ?', (event_name,))
+        cursor.execute('DELETE FROM events WHERE name = ?', (event_name,))
         conn.commit()
         return "Event removed successfully"
     @staticmethod
@@ -75,10 +78,18 @@ class Events:
     @staticmethod
     def filterEvents(date):
         date = Date.date(date.split(","))
+        today = Date.today()
         conn = sqlite3.connect('tickets.db')
         cursor = conn.cursor()
-        cursor.execute("SELECT name,capacity,start FROM events WHERE DATE(start)>DATE(?)", (date,))
-        events = cursor.fetchall()
+        if date > today:
+            cursor.execute("SELECT name, capacity, start FROM events WHERE DATE(start) BETWEEN DATE(?) AND DATE(?)", (today, date))
+            events = cursor.fetchall()
+        elif date < today:
+            cursor.execute("SELECT name, capacity, start FROM events WHERE DATE(start) < DATE(?) AND DATE(start) >= DATE(?)",(today, date))
+            events = cursor.fetchall()
+        else:
+            cursor.execute("SELECT name, capacity, start FROM events WHERE DATE(start) = DATE(?)", (today,))
+            events = cursor.fetchall()
         return events
 
 

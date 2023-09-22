@@ -2,7 +2,7 @@ from Users import Users
 import sqlite3
 
 class Clients(Users):
-    def __init__(self,id_code):
+    def __init__(self,id_code:str):
         self.id_code = id_code
         conn = sqlite3.connect('tickets.db')
         cursor = conn.cursor()
