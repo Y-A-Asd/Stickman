@@ -62,12 +62,14 @@ print(Action.attack(1))
 -Check max 8 miner?
 -Organize code بهینه سازی کد
 -Manage two inputs h&q h->enemy_health q->command_couter 
+
 ((function name))           describe                                    in%out                               
 1.((attack))        troops can attack enemy             :Inputs->troops_id: :Output->status:                 
 2.((kill_troop))    troops die if damage > health       :Inputs->troops_id: :Output->status:
 3.((add_troop))     user can add troops                 :Inputs->troops_type: :Output->status:
 4.((damage))        enemy damage us                     :Inputs->troops_id,damage_power: :Output->status:
 5.((income))        every time calles should add income :Inputs->amount: :Output->status:
+
 تمامی توابع مورد نیاز در سوال باید در پوشه action به صورت کامل باشد و استفاده آن در فایل main انجام میشود
 در نظر بگیرید اگر در جایی از سوال خواستید ارور ریز کنید فقط توضیح آن را قابل فهم بگزارید و اگر در جایی از سوال 
 احتمال بروز خطا در موارد خاص میدهید کامنت کنید تا در مرحله exeption handling فرد مربوطه بتواند بررسی کند
