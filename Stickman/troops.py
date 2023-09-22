@@ -18,7 +18,7 @@ class miner(Troops):
     unit = 1
     def __init__(self):
         super().__init__(miner.health, "miner")
-        self.active = False
+        self.active = True
     
         
 class swordwrath(Troops):
