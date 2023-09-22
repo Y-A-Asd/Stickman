@@ -1,27 +1,9 @@
 import uuid
-
-
-class Books:
-    """
-    کلاس کتاب
-    """
-
-
-    def __init__(self, book_id, name, author, pages):
-        self.book_id = book_id
-        self.name = name
-        self.author = author
-        self.pages = pages
-
-
-    def __len__(self):
-        return self.pages
-
-    def __repr__(self):
-        return f"ID: {self.book_id}, NAME: {self.name}, AUTHOR: {self.author}, PAGEs: {self.pages}"
+from pickle import PickleHandler
+from book import Book
+from Librarian import Librarian
 
 class Shelf:
-
     """
     کلاس قفسه
     """
@@ -34,30 +16,29 @@ class Shelf:
     def add_shelf(self, *books):
         Shelf.book_shelf[self.shelf_id].extend(books)
 
-    # def __add__(self, book: Books):  # میتوان با اضافه کردن کتاب به قفسه آن را وارد قفسه کرد
-    #     Shelf.book_shelf[self.shelf_id].append(book)
-    #     return self
+    def __add__(self, book: Books):  # میتوان با اضافه کردن کتاب به قفسه آن را وارد قفسه کرد
+        Shelf.book_shelf[self.shelf_id].append(book)
+        return self
 
     def __len__(self):
         return len(Shelf.book_shelf[self.shelf_id])
 
 
-class Author:
-    def __init__(self,name,book):
-        self.name = name
-        if book not in self.books:
-            self.books = [book]
+#Book : name, page_count, price, category, author
+book1 = Book("death",200 ,1000,"Action","Ali")
+book1 = Book("death",200 ,1000,"Action","Ali")
+book1 = Book("death",200 ,1000,"Action","Ali")
 
-
-
-
-
-book1 = Books(138434, "death", "mac kart", 397)
-book2 = Books(352, "lives", "jaimse", 223)
-book3 = Books(56700987, "end", "emad", 1008)
 shelf1 = Shelf(10000)
 shelf1.add_shelf(book1, book2, book3)
 print(Shelf.book_shelf)
+pic = PickleHandler("book.pickle")
+pic.write(Shelf.book_shelf)
+
+
+
+
+
 
 
 
