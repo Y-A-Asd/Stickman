@@ -1,2 +1,4 @@
-balance = 500
+balance = 1500000
+# class Player:
+#     pass
         

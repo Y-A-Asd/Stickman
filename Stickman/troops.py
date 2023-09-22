@@ -2,10 +2,11 @@
 class Troops:
     troops = dict()
     troops_id = 0
-    def __init__(self, health,type) :
+    def __init__(self, health,type,time) :
         Troops.troops_id += 1
         self.health = health
         self.type = type
+        self.time = time
         Troops.troops[Troops.troops_id] = self
         
         
@@ -16,9 +17,8 @@ class miner(Troops):
     speed = 10
     income = 100
     unit = 1
-    def __init__(self):
-        super().__init__(miner.health, "miner")
-        self.active = True
+    def __init__(self,time):
+        super().__init__(miner.health, "miner",time)
     
         
 class swordwrath(Troops):
@@ -28,8 +28,8 @@ class swordwrath(Troops):
     speed = 1
     income = 0
     unit = 1
-    def __init__(self):
-        super().__init__(swordwrath.health, "swordwrath")
+    def __init__(self,time):
+        super().__init__(swordwrath.health, "swordwrath",time)
         
         
 class archidon(Troops):
@@ -39,8 +39,8 @@ class archidon(Troops):
     speed = 1
     income = 0
     unit = 1
-    def __init__(self):
-        super().__init__(archidon.health, "archidon")
+    def __init__(self,time):
+        super().__init__(archidon.health, "archidon",time)
         
 class spearton(Troops):
     health = 250
@@ -49,8 +49,8 @@ class spearton(Troops):
     speed = 3
     income = 0
     unit = 2
-    def __init__(self):
-        super().__init__(spearton.health, "spearton")
+    def __init__(self,time):
+        super().__init__(spearton.health, "spearton",time)
         
 class magikill(Troops):
     health = 80
@@ -59,8 +59,8 @@ class magikill(Troops):
     speed = 5
     income = 0
     unit = 4
-    def __init__(self):
-        super().__init__(magikill.health, "magikill")
+    def __init__(self,time):
+        super().__init__(magikill.health, "magikill",time)
         
 class giant(Troops):
     health = 1000 
@@ -69,8 +69,8 @@ class giant(Troops):
     speed = 4
     income = 0
     unit = 4
-    def __init__(self):        
-        super().__init__(giant.health, "giant")
+    def __init__(self,time):
+        super().__init__(giant.health, "giant",time)
     
         
         
