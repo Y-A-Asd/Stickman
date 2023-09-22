@@ -12,7 +12,7 @@ class Troops:
 class miner(Troops):
     health = 100
     cost = 150
-    power = None
+    power = 0
     speed = 10
     income = 100
     unit = 1
@@ -26,7 +26,7 @@ class swordwrath(Troops):
     cost = 125
     power = 20
     speed = 1
-    income = None
+    income = 0
     unit = 1
     def __init__(self):
         super().__init__(swordwrath.health, "swordwrath")
@@ -37,7 +37,7 @@ class archidon(Troops):
     cost = 300
     power = 10
     speed = 1
-    income = None
+    income = 0
     unit = 1
     def __init__(self):
         super().__init__(archidon.health, "archidon")
@@ -47,7 +47,7 @@ class spearton(Troops):
     cost = 500
     power = 35
     speed = 3
-    income = None
+    income = 0
     unit = 2
     def __init__(self):
         super().__init__(spearton.health, "spearton")
@@ -57,20 +57,20 @@ class magikill(Troops):
     cost = 1200
     power = 200
     speed = 5
-    income = None
+    income = 0
     unit = 4
     def __init__(self):
-        super().__init__(magikill.health, "spearton")
+        super().__init__(magikill.health, "magikill")
         
 class giant(Troops):
     health = 1000 
     cost = 1500
     power = 150
     speed = 4
-    income = None
+    income = 0
     unit = 4
     def __init__(self):        
-        super().__init__(giant.health, "spearton")
+        super().__init__(giant.health, "giant")
     
         
         
