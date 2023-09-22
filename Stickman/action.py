@@ -7,14 +7,13 @@ class Action:
     troops_capacity = 50
 
 
-
-    def mydec(func):
-        def wrapper(timestamps):
-            Action.enemy_status(timestamps)
-            res = func(timestamps)
-
-
-        return wrapper()
+#TODO:Decorator
+    # def mydec(func):
+    #     def wrapper(*args):
+    #         Action.enemy_status(args[-1])
+    #         res = func(args)
+    #
+    #     return wrapper()
 
     def _timestamp(timestamps):
         minutes, seconds, milliseconds = map(int, timestamps.split(':'))
