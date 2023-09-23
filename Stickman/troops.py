@@ -10,7 +10,7 @@ class Troops(ABC):
         Troops.troops[Troops.troops_id] = self
         
         
-class miner(Troops):
+class Miner(Troops):
     health = 100
     cost = 150
     power = 0
@@ -18,10 +18,10 @@ class miner(Troops):
     income = 100
     unit = 1
     def __init__(self,time):
-        super().__init__(miner.health, "miner",time)
+        super().__init__(Miner.health, "miner",time)
     
         
-class swordwrath(Troops):
+class Swordwrath(Troops):
     health = 120
     cost = 125
     power = 20
@@ -29,10 +29,10 @@ class swordwrath(Troops):
     income = 0
     unit = 1
     def __init__(self,time):
-        super().__init__(swordwrath.health, "swordwrath",time)
+        super().__init__(Swordwrath.health, "swordwrath",time)
         
         
-class archidon(Troops):
+class Archidon(Troops):
     health = 80
     cost = 300
     power = 10
@@ -40,9 +40,9 @@ class archidon(Troops):
     income = 0
     unit = 1
     def __init__(self,time):
-        super().__init__(archidon.health, "archidon",time)
+        super().__init__(Archidon.health, "archidon",time)
         
-class spearton(Troops):
+class Spearton(Troops):
     health = 250
     cost = 500
     power = 35
@@ -50,9 +50,9 @@ class spearton(Troops):
     income = 0
     unit = 2
     def __init__(self,time):
-        super().__init__(spearton.health, "spearton",time)
+        super().__init__(Spearton.health, "spearton",time)
         
-class magikill(Troops):
+class Magikill(Troops):
     health = 80
     cost = 1200
     power = 200
@@ -60,9 +60,9 @@ class magikill(Troops):
     income = 0
     unit = 4
     def __init__(self,time):
-        super().__init__(magikill.health, "magikill",time)
+        super().__init__(Magikill.health, "magikill",time)
         
-class giant(Troops):
+class Giant(Troops):
     health = 1000 
     cost = 1500
     power = 150
@@ -70,7 +70,7 @@ class giant(Troops):
     income = 0
     unit = 4
     def __init__(self,time):
-        super().__init__(giant.health, "giant",time)
+        super().__init__(Giant.health, "giant",time)
     
         
         

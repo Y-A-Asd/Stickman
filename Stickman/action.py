@@ -5,7 +5,6 @@ import enemy
 
 class Action:
     troops_capacity = 50
-
     @staticmethod
     def mydec(func):
         def wrapper(*self):
@@ -124,15 +123,16 @@ class Action:
 # print(Action.income(3000,"0:0:0"))
 # Action.money_auto("0:0:00")
 # print(player.balance)
-print(Action.add_troop(eval("troops.miner"),"0:0:000"))
+print(Action.add_troop(eval("troops.Miner"),"0:0:000"))
 # print(Action.add_troop(eval("troops.miner"),"0:0:000"))
-# print(player.balance)
-print(Action.add_troop(eval("troops.giant"),"0:00:000"))
-print(Action.add_troop(eval("troops.giant"),"0:10:000"))
+print(player.balance)
+print(Action.add_troop(eval("troops.Giant"),"0:00:000"))
+print(Action.add_troop(eval("troops.Giant"),"0:10:000"))
+# print(Action.troops_capacity)
 # print(Action.attack("00:20:000"))
 # Action.money_auto("0:20:00")
 # print(player.balance)
-# print(Action.troops_capacity)
+print(Action.troops_capacity)
 # print(troops.Troops.troops)
 # print(Action.damage(1,100))
 # print(Action.income(200))
