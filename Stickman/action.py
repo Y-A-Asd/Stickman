@@ -8,12 +8,13 @@ class Action:
 
 
 #TODO:Decorator
-    # def mydec(func):
-    #     def wrapper(*args):
-    #         Action.enemy_status(args[-1])
-    #         res = func(args)
-    #
-    #     return wrapper()
+    @staticmethod
+    def mydec(func):
+        def wrapper(*args):
+            Action.attack(args[-1])
+            result = func(args)
+            return result
+        return wrapper()
 
     def _timestamp(timestamps):
         minutes, seconds, milliseconds = map(int, timestamps.split(':'))
@@ -57,7 +58,7 @@ class Action:
     def money_status(cls,timestamps):
         cls.money_auto(timestamps)
         return player.balance
-    
+
     @staticmethod
     def damage(troops_id:int, power:int,timestamps):
         time_in_seconds = Action._timestamp(timestamps)
@@ -67,7 +68,7 @@ class Action:
             return Action.kill_troop(troops_id)
         else:
             return troops.Troops.troops[troops_id].health
-        
+
     def add_troop(type,timestamps): #type == one of trups class names
         time_in_seconds = Action._timestamp(timestamps)
         if Action.troops_capacity - type.unit < 0:
@@ -89,6 +90,8 @@ class Action:
             return "done"
         else:
             return "Troop not exist"
+
+    @mydec
     @staticmethod
     def enemy_status(timestamps):
         Action.attack(timestamps)
