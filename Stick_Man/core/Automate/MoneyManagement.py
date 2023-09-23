@@ -1,4 +1,4 @@
-from Stick_Man.core.Automate.Timestamps import _timestamp
+from Stick_Man.core.Automate.Timestamps import Timestaps
 from Stick_Man.core.Troops.Troops import Troops
 from Stick_Man.core.Player import Player
 
@@ -9,7 +9,7 @@ def income(num):
 
 
 def money_auto(timestamps):
-    time_in_seconds = _timestamp(timestamps)
+    time_in_seconds = Timestaps(timestamps)
     amount = 0
     for ids in Troops.troops:
         if Troops.troops[ids].type == "miner":

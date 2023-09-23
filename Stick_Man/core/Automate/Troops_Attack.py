@@ -1,10 +1,10 @@
 from Stick_Man.core.Troops.Troops import Troops
 from Stick_Man.core.Enemy import Enemy
-from Stick_Man.core.Automate.Timestamps import _timestamp
+from Stick_Man.core.Automate.Timestamps import Timestaps
 
 
 def attack(timestamps):
-    time_in_seconds = _timestamp(timestamps)
+    time_in_seconds = Timestaps(timestamps)
     attack_damage: int = 0
     for ids in Troops.troops:
         power = Troops.troops[ids].power
