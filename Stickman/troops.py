@@ -1,5 +1,5 @@
-# TODO: timer for each troop 
-class Troops:
+from abc import ABC, abstractmethod
+class Troops(ABC):
     troops = dict()
     troops_id = 0
     def __init__(self, health,type,time) :

@@ -6,16 +6,16 @@ import enemy
 class Action:
     troops_capacity = 50
 
-
-#TODO:Decorator
     @staticmethod
     def mydec(func):
-        def wrapper(*args):
-            Action.attack(args[-1])
-            result = func(args)
+        def wrapper(*self):
+            enemy.remhealth = enemy.fhealth
+            Action.attack(self[-1])
+            result = func(*self)
             return result
-        return wrapper()
+        return wrapper
 
+    @staticmethod
     def _timestamp(timestamps):
         minutes, seconds, milliseconds = map(int, timestamps.split(':'))
         time_in_seconds = minutes * 60 + seconds + milliseconds / 1000
@@ -29,8 +29,7 @@ class Action:
             speed = troops.Troops.troops[ids].speed
             time = troops.Troops.troops[ids].time
             attack += ((time_in_seconds - time) // speed) * power
-        enemy.health -= attack
-
+        enemy.remhealth -= attack
 
 
 
@@ -84,6 +83,8 @@ class Action:
 
 
 
+    @mydec
+    @staticmethod
     def kill_troop(troops_id:int):
         if troops_id in troops.Troops.troops:
             del troops.Troops.troops[troops_id]
@@ -91,43 +92,34 @@ class Action:
         else:
             return "Troop not exist"
 
-    @mydec
     @staticmethod
+    @mydec
     def enemy_status(timestamps):
-        Action.attack(timestamps)
-        if enemy.health <= 0:
+        # Action.attack(timestamps)
+        if enemy.remhealth <= 0:
             exit("Dragon is dead")
         else:
-            return enemy.health
+            return enemy.remhealth
 
 
 
     @staticmethod
-    def army_status():
+    @mydec
+    def army_status(timestamps):
         # time_in_seconds = Action._timestamp(timestamps)
         troopsi = {"giant": 0, "magikill": 0, "spearton": 0, "archidon": 0, "swordwrath": 0, "miner": 0}
         # print(list(troops.Troops.troops.items()))
         for i in list(troops.Troops.troops.items()):
             troop = i[1].type
             troopsi[troop] += 1
-        # print(" ".join(map(str, troopsi.values())))
         print(" ".join(map(str, reversed(list(troopsi.values())))))
 
 
 
-            # sum = 0
-            # for i in list(troops.Troops.troops.items()):
-            #     troop = i[1].type
-            #     if troop == "miner":
-            #         sum += 1
-            # if sum > 8:
-            #     return False
-            # else:
-            #     return True
 
 
 
-enemy.health += 150
+
 # print(Action.income(3000,"0:0:0"))
 # Action.money_auto("0:0:00")
 # print(player.balance)
@@ -143,7 +135,7 @@ print(Action.add_troop(eval("troops.giant"),"0:10:000"))
 # print(troops.Troops.troops)
 # print(Action.damage(1,100))
 # print(Action.income(200))
-Action.army_status("0:10:0")
+Action.army_status("0:20:0")
 print(Action.enemy_status("0:20:0"))
 # print(Action.money_status("0:20:0"))
 

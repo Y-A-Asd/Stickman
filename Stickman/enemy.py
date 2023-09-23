@@ -1,3 +1,4 @@
-health = 0
+fhealth = 1500
+remhealth = fhealth
 
         

@@ -157,43 +157,7 @@ class Librarian(People,PickleHandler):
         else:
             print("No books found!")
             return None
-        # if len(book) > 1:#اگر کتاب در چندین قفسه وجود داشت
-        #     print("multiply books found choose one!")
-        #     print(list(itertools.chain.from_iterable(book)))
-        #     chosse = int(input("Select Shelfs: "))
-        #     for sames in book:
-        #         for k, v in sames.items():
-        #             if k == chosse:
-        #                 return v
 
-    # def pass_book(self, book_name=None, book_id=None, book_author=None):
-    #     """
-    #     پس دادن کتاب
-    #     """
-    #     book = Librarian.search(self, book_name=book_name, book_id=book_id, book_author=book_author)
-    #     if len(book) > 1:#اگر کتاب در چندین قفسه وجود داشت
-    #         print("multiply books found choose one!")
-    #         print(list(itertools.chain.from_iterable(book)))
-    #         chosse = int(input("Select Shelfs: "))
-    #         for sames in book:
-    #             for k, v in sames.items():
-    #                 if k == chosse:
-    #                     if v.taken:
-    #                         v.taken = False
-    #                         return v
-    #                     else:
-    #                         print("This book is not taken!")
-    #                         return None
-    #     elif len(book) == 1:
-    #         if list(book[0].values())[0].taken:
-    #             list(book[0].values())[0].taken = False
-    #             return list(book[0].values())
-    #         else:
-    #             print("This book is not taken!")
-    #             return None
-    #     else:
-    #         print("No books found!")
-    #         return None
     def change_book_location(self,unique_id: int, new_location):
         current_location = list(self.search(book_id=unique_id)[0].items())
         BookShelf.book_shelf[current_location[0][0]].remove(current_location[0][1])
