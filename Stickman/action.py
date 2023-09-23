@@ -52,12 +52,12 @@ class Action:
     def income(num):
         player.balance += num
 
-
+    @mydec
     @classmethod
     def money_status(cls,timestamps):
         cls.money_auto(timestamps)
         return player.balance
-
+    @mydec
     @staticmethod
     def damage(troops_id:int, power:int,timestamps):
         time_in_seconds = Action._timestamp(timestamps)
@@ -67,7 +67,8 @@ class Action:
             return Action.kill_troop(troops_id)
         else:
             return troops.Troops.troops[troops_id].health
-
+    @staticmethod
+    @mydec
     def add_troop(type,timestamps): #type == one of trups class names
         time_in_seconds = Action._timestamp(timestamps)
         if Action.troops_capacity - type.unit < 0:
