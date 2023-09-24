@@ -10,8 +10,6 @@ from core.Troops.Giant import Giant
 
 
 
-
-
 # print(Action.income(3000,"0:0:0"))
 # Action.money_auto("0:0:00")
 # print(player.balance)
