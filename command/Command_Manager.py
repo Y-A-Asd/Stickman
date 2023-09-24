@@ -8,14 +8,12 @@ from core.Troops.Swordwarth import Swordwrath
 
 
 class CommandManager:
-
     command_functions = {
         "add": Add_Troops.add_troop,
         "damage": Damage.damage,
         "enemy-status": Enemy_Status.enemy_status,
         "army-status": Army_Status.army_status,
-        "money-status": Money_Status.money_status
-    }
+        "money-status": Money_Status.money_status}
     @staticmethod
     def command_manager(req_list):
         for requests in req_list:
@@ -24,3 +22,13 @@ class CommandManager:
             args = requests[1:]
             result = command_func(*args)
             print(result)
+    """
+    @staticmethod
+    def command_manager(req_list):
+        for request in req_list:
+            controller_name = request[0]
+            args = requests[1:]
+            controller = getattr(CommandManager, controller_name)
+            resul = controller(*args)
+            print(result)
+    """
