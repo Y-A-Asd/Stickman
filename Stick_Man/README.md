@@ -3,21 +3,16 @@
 
 This Python script implements a troop management system for a game. It allows players to add and manage troops, perform attacks, generate income, and monitor the status of troops and enemies. The system includes different troop types, each with its own characteristics.
 
-## Table of Contents
-
-- [Prerequisites](#prerequisites)
-- [Getting Started](#getting-started)
-- [Usage](#usage)
-- [Troop Classes](#troop-classes)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Prerequisites
 
 - Python 3.x
 
 # Getting Started
-RUN test.py
+and just run `main.py`:
+```bash
+python main.py
+```
 
 
 ## FILES
@@ -28,7 +23,7 @@ RUN test.py
 - ### core
       {The core of the program and management of all functions}
 - - Actions          -> execute based on user commands and handle game actions
-- - Automate         -> handel function that should be automate and cant call from user
+- - Automate         -> handel function that should be automate, These are functions that are executed indirectly by the user
 - - Enemy            -> contain enemy attr
 - - Player           -> contain player attr
 - - Troops           -> contain troops attr
