@@ -1,5 +1,5 @@
 from core.Enemy import Enemy
-from command.Command_Manager import command_manager
+from command.Command_Manager import CommandManager
 
 
 def get_commands():
@@ -9,4 +9,4 @@ def get_commands():
     for _ in range(q):
         request = input().split()
         req_list.append(request)
-    command_manager(req_list)
+    CommandManager.command_manager(req_list)

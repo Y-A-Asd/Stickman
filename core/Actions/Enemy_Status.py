@@ -10,4 +10,4 @@ from core.Automate.Decorators.Check_Money import check_money
 @check_enemy
 def enemy_status(timestamps):
     time_in_seconds = Timestaps(timestamps)
-    return Enemy.NEWHEALTH
+    return int(Enemy.NEWHEALTH)

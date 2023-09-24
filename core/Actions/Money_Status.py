@@ -8,4 +8,4 @@ from core.Automate.Decorators.Check_Money import check_money
 @check_enemy
 @attack_enemy
 def money_status(timestamps):
-    return Player.NEWBALANCE + Player.ORGINALBALANCE
+    return int(Player.NEWBALANCE + Player.ORGINALBALANCE)

@@ -7,22 +7,20 @@ from core.Troops.Archidon import Archidon
 from core.Troops.Swordwarth import Swordwrath
 
 
-def command_manager(req_list):
-    for requests in req_list:
-        command = requests[0]
-        if command == "add":
-            role, timestamp = requests[1].capitalize(), requests[2]
-            result = Add_Troops.add_troop(eval(f"{role}"), timestamp)
-        elif command == "damage":
-            idx, d, timestamp = int(requests[1]), int(requests[2]), requests[3]
-            result = Damage.damage(idx, d, timestamp)
-        elif command == "enemy-status":
-            timestamp = requests[1]
-            result = Enemy_Status.enemy_status(timestamp)
-        elif command == "army-status":
-            timestamp = requests[1]
-            result = Army_Status.army_status(timestamp)
-        elif command == "money-status":
-            timestamp = requests[1]
-            result = Money_Status.money_status(timestamp)
-        print(result)
+class CommandManager:
+
+    command_functions = {
+        "add": Add_Troops.add_troop,
+        "damage": Damage.damage,
+        "enemy-status": Enemy_Status.enemy_status,
+        "army-status": Army_Status.army_status,
+        "money-status": Money_Status.money_status
+    }
+    @staticmethod
+    def command_manager(req_list):
+        for requests in req_list:
+            command = requests[0]
+            command_func = CommandManager.command_functions[command]
+            args = requests[1:]
+            result = command_func(*args)
+            print(result)

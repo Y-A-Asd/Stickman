@@ -4,21 +4,27 @@ from core.Player import Player
 from core.Automate.Decorators.Attack_Enemy import attack_enemy
 from core.Automate.Decorators.Check_Enemy import check_enemy
 from core.Automate.Decorators.Check_Money import check_money
-
+from core.Troops.Miner import Miner
+from core.Troops.Magikill import Magikill
+from core.Troops.Giant import Giant
+from core.Troops.Spearton import Spearton
+from core.Troops.Archidon import Archidon
+from core.Troops.Swordwarth import Swordwrath
 
 @check_money
 @check_enemy
 @attack_enemy
-def add_troop(type, timestamps):  # type == one of trups class names
-    if not issubclass(type, Troops):
+def add_troop(troops_type: str, timestamps):  # type == one of trups class names
+    troops_type = eval(troops_type.capitalize())
+    if not issubclass(troops_type, Troops):
         raise Exception()
     time_in_seconds = Timestaps(timestamps)
-    if Player.ORGINALBALANCE + Player.NEWBALANCE - type.cost < 0:
+    if Player.ORGINALBALANCE + Player.NEWBALANCE - troops_type.cost < 0:
         return "not enough money!"
-    elif Troops.troops_capacity - type.unit < 0:
+    elif Troops.troops_capacity - troops_type.unit < 0:
         return "too many troops!"
     else:
-        Troops.troops_capacity -= type.unit
-        Player.ORGINALBALANCE -= type.cost
-        type(starttime=time_in_seconds)
+        Troops.troops_capacity -= troops_type.unit
+        Player.ORGINALBALANCE -= troops_type.cost
+        troops_type(starttime=time_in_seconds)
         return Troops.troops_id
