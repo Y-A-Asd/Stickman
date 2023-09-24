@@ -1,7 +1,10 @@
-from abc import ABC, abstractmethod
+from abc import ABC
+
+
 class Troops(ABC):
     troops = dict()
     troops_id = 0
+    
     def __init__(self, health,type,time) :
         Troops.troops_id += 1
         self.health = health
@@ -37,7 +40,6 @@ class Archidon(Troops):
     cost = 300
     power = 10
     speed = 1
-    income = 0
     unit = 1
     def __init__(self,time):
         super().__init__(Archidon.health, "archidon",time)

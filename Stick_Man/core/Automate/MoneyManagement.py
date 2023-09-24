@@ -19,3 +19,4 @@ def money_auto(timestamps):
             amount += ((time_in_seconds - time) // speed) * troop_income
     amount += (time_in_seconds // 20) * 180
     income(amount)
+

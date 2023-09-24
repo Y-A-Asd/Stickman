@@ -9,12 +9,12 @@ from Stick_Man.core.Automate.Check_Enemy import check_enemy
 @attack_enemy
 def add_troop(type, timestamps):  # type == one of trups class names
     if not issubclass(type, Troops):
-        raise Exception("EROOOOOOFDKLSFKJSHFALSFSALKFJDFSLKM")  # Todo
+        raise Exception()
     time_in_seconds = Timestaps(timestamps)
-    if Troops.troops_capacity - type.unit < 0:
-        return "Too many troops!"
-    elif Player.balance - type.cost < 0:
-        return "Not enough money!"
+    if Player.balance - type.cost < 0:
+        return "not enough money!"
+    elif Troops.troops_capacity - type.unit < 0:
+        return "too many troops!"
     else:
         Troops.troops_capacity -= type.unit
         Player.balance -= type.cost

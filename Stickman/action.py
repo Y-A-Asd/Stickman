@@ -15,10 +15,13 @@ class Action:
         return wrapper
 
     @staticmethod
-    def _timestamp(timestamps):
+    def _timestamp(timestamps): # 01:20:200 -> 80
         minutes, seconds, milliseconds = map(int, timestamps.split(':'))
         time_in_seconds = minutes * 60 + seconds + milliseconds / 1000
         return time_in_seconds
+
+
+
     @staticmethod
     def attack(timestamps):
         time_in_seconds = Action._timestamp(timestamps)

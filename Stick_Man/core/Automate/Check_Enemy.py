@@ -7,5 +7,4 @@ def check_enemy(func):
             exit("Dragon is dead")
         result = func(*args)
         return result
-
     return wrapper
