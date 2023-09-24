@@ -1,3 +1,5 @@
+![StickWarLegacy.jpg](https://quera.org/qbox/view/WKDZpqX2GO/StickWarLegacy.jpg)
+
 # :Game: Stickman: Legacy 
 
 This Python script implements a troop management system for a game. It allows players to add and manage troops, perform attacks, generate income, and monitor the status of troops and enemies. The system includes different troop types, each with its own characteristics.
