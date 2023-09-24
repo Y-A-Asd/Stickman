@@ -92,4 +92,4 @@ For more details, please contact the project author at [Contract](#contact).
 For any questions or inquiries, you can contact the project author:
 
 - GitHub: [github.com/Y-A-Asd](https://github.com/Y-A-Asd/)
-- Email: [yosofasady2@gmail.com]
+- Email: yosofasady2@gmail.com
