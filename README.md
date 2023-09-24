@@ -26,7 +26,7 @@ python main.py
 ```
 
 
-## FILES
+## Files
 - ### command
       {user command inputs handler}
 - - Command_Manager  -> execute functions based on user command
