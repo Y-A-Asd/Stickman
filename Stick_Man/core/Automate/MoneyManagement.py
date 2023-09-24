@@ -15,7 +15,7 @@ def money_auto(timestamps):
         if Troops.troops[ids].type == "miner":
             troop_income = Troops.troops[ids].income
             speed = Troops.troops[ids].speed
-            time = Troops.troops[ids].time
+            time = Troops.troops[ids].starttime
             amount += ((time_in_seconds - time) // speed) * troop_income
     amount += (time_in_seconds // 20) * 180
     income(amount)

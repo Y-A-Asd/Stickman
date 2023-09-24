@@ -8,5 +8,5 @@ class Swordwrath(Troops):
     speed = 1
     income = 0
     unit = 1
-    def __init__(self,time):
-        super().__init__(Swordwrath.health, "swordwrath",time)
+    def __init__(self,starttime):
+        super().__init__(Swordwrath.health, "swordwrath",starttime)

@@ -9,7 +9,7 @@ def attack(timestamps):
     for ids in Troops.troops:
         power = Troops.troops[ids].power
         speed = Troops.troops[ids].speed
-        time = Troops.troops[ids].time
+        time = Troops.troops[ids].starttime
         attack_damage += ((time_in_seconds - time) // speed) * power
     Enemy.remhealth -= attack_damage
     # print(Enemy.remhealth)

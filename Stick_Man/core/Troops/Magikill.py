@@ -8,5 +8,5 @@ class Magikill(Troops):
     speed = 5
     income = 0
     unit = 4
-    def __init__(self,time):
-        super().__init__(Magikill.health, "magikill",time)
+    def __init__(self,starttime):
+        super().__init__(Magikill.health, "magikill",starttime)

@@ -9,5 +9,5 @@ class Miner(Troops):
     income = 100
     unit = 1
 
-    def __init__(self, time):
-        super().__init__(Miner.health, "miner", time)
+    def __init__(self, starttime):
+        super().__init__(Miner.health, "miner", starttime)

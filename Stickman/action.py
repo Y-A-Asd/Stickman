@@ -29,7 +29,7 @@ class Action:
         for ids in troops.Troops.troops:
             power = troops.Troops.troops[ids].power
             speed = troops.Troops.troops[ids].speed
-            time = troops.Troops.troops[ids].time
+            time = troops.Troops.troops[ids].starttime
             attack += ((time_in_seconds - time) // speed) * power
         enemy.remhealth -= attack
 
@@ -43,7 +43,7 @@ class Action:
             if troops.Troops.troops[ids].type == "miner":
                 income = troops.Troops.troops[ids].income
                 speed = troops.Troops.troops[ids].speed
-                time = troops.Troops.troops[ids].time
+                time = troops.Troops.troops[ids].starttime
                 amount += ((time_in_seconds - time) // speed) * income
         amount += (time_in_seconds//20) * 180
         Action.income(amount)

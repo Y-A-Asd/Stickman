@@ -6,9 +6,10 @@ class Troops(ABC):
     troops_id = 0
     troops_capacity = 50
 
-    def __init__(self, health, type, time):
+    def __init__(self, health, type, starttime):
         Troops.troops_id += 1
         self.health = health
         self.type = type
-        self.time = time
+        self.starttime = starttime
+        self.endtime = None
         Troops.troops[Troops.troops_id] = self

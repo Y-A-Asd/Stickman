@@ -8,5 +8,5 @@ class Spearton(Troops):
     speed = 3
     income = 0
     unit = 2
-    def __init__(self,time):
-        super().__init__(Spearton.health, "spearton",time)
+    def __init__(self,starttime):
+        super().__init__(Spearton.health, "spearton",starttime)

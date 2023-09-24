@@ -8,5 +8,5 @@ class Archidon(Troops):
     speed = 1
     income = 0
     unit = 1
-    def __init__(self,time):
-        super().__init__(Archidon.health, "archidon",time)
+    def __init__(self,starttime):
+        super().__init__(Archidon.health, "archidon",starttime)
