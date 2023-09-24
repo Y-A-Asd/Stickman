@@ -1,22 +1,29 @@
-# Python Troop Management System
+![StickWarLegacy.jpg](https://quera.org/qbox/view/WKDZpqX2GO/StickWarLegacy.jpg)
+
+# :Game: Stickman: Legacy 
 
 This Python script implements a troop management system for a game. It allows players to add and manage troops, perform attacks, generate income, and monitor the status of troops and enemies. The system includes different troop types, each with its own characteristics.
-
 ## Table of Contents
 
-- [Prerequisites](#prerequisites)
 - [Getting Started](#getting-started)
-- [Usage](#usage)
-- [Troop Classes](#troop-classes)
-- [Contributing](#contributing)
+- [Files](#files)
+- [Add a Troop to Your Army](#add-a-troop-to-your-army)
+- [Army Status](#get-army-status)
+- [Enemy Status](#get-enemy-status)
+- [Money Status](#Get-money-status)
+- [Give Damage to Troops](#give-damage-into-troops)
 - [License](#license)
+- [Contract](#contact)
 
 ## Prerequisites
 
 - Python 3.x
 
 # Getting Started
-RUN test.py
+just run `main.py`:
+```bash
+python main.py
+```
 
 
 ## FILES
@@ -27,7 +34,7 @@ RUN test.py
 - ### core
       {The core of the program and management of all functions}
 - - Actions          -> execute based on user commands and handle game actions
-- - Automate         -> handel function that should be automate and cant call from user
+- - Automate         -> handel function that should be automate, These are functions that are executed indirectly by the user
 - - Enemy            -> contain enemy attr
 - - Player           -> contain player attr
 - - Troops           -> contain troops attr
@@ -60,3 +67,29 @@ RUN test.py
    ```python
    damage(troops_id: int, damage_amount: int, TIMESTAMPS: (mm:ss:fff))
 ```
+
+
+## License
+
+This project is provided under the terms of the Custom Project License (CPL).
+
+You are free to:
+- Use this project for educational and non-commercial purposes.
+- Modify the code for personal or non-commercial use.
+
+You are not allowed to:
+- Use this project or its code for any commercial purposes without explicit permission from the project author.
+
+If you would like to use this project for commercial purposes, please contact the project author to discuss licensing options.
+
+This project is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+For more details, please contact the project author at [Contract](#contact).
+
+© [2023] [Yousof.A.Asadi]
+## Contact
+
+For any questions or inquiries, you can contact the project author:
+
+- GitHub: [github.com/Y-A-Asd](https://github.com/Y-A-Asd/)
+- Email: [yosofasady2@gmail.com]
