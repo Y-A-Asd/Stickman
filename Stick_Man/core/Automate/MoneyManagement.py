@@ -5,12 +5,13 @@ from Stick_Man.core.Automate.Cal_Timeingame import runtime
 
 
 def income(num):
-    Player.balance += num
+    Player.NEWBALANCE += num
 
 
 def money_auto(timestamps):
     time_in_seconds = Timestaps(timestamps)
     amount = 0
+    Player.NEWBALANCE = 0
     for ids in Troops.troops:
         if Troops.troops[ids].type == "miner":
             time_in_game = runtime(Troops.troops[ids].starttime, Troops.troops[ids].endtime, time_in_seconds)

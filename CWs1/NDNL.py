@@ -52,7 +52,7 @@ class Team():
             return True
     def Transfer_player(self,player,team_from):
         self.balance = self.balance - player.pay
-        team_from.balance = team_from.balance + player.pay
+        team_from.ORGINALBALANCE = team_from.ORGINALBALANCE + player.pay
 
 
 

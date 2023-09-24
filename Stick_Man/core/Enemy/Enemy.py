@@ -1,2 +1,2 @@
-fhealth = 1500
-remhealth = fhealth
+ORGINALHEALTH = 1500
+NEWHEALTH = ORGINALHEALTH

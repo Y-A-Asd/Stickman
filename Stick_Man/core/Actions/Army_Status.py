@@ -1,9 +1,11 @@
 from Stick_Man.core.Automate.Timestamps import Timestaps
 from Stick_Man.core.Troops.Troops import Troops
-from Stick_Man.core.Automate.Decorators.Attack import attack_enemy
+from Stick_Man.core.Automate.Decorators.Attack_Enemy import attack_enemy
 from Stick_Man.core.Automate.Decorators.Check_Enemy import check_enemy
+from Stick_Man.core.Automate.Decorators.Check_Money import check_money
 
 
+@check_money
 @attack_enemy
 @check_enemy
 def army_status(timestamps):
