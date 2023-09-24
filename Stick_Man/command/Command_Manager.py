@@ -1,4 +1,4 @@
-from Stick_Man.core.Actions import Enemy_Status,Money_Status,Army_Status,Add_Troops,Damage
+from Stick_Man.core.Actions import Enemy_Status, Money_Status, Army_Status, Add_Troops, Damage
 from Stick_Man.core.Troops.Miner import Miner
 from Stick_Man.core.Troops.Magikill import Magikill
 from Stick_Man.core.Troops.Giant import Giant
@@ -12,7 +12,7 @@ def command_manager(req_list):
         command = requests[0]
         if command == "add":
             role, timestamp = requests[1].capitalize(), requests[2]
-            result = Add_Troops.add_troop(eval(f"{role}"),timestamp)
+            result = Add_Troops.add_troop(eval(f"{role}"), timestamp)
         elif command == "damage":
             idx, d, timestamp = int(requests[1]), int(requests[2]), requests[3]
             result = Damage.damage(idx, d, timestamp)
@@ -25,4 +25,6 @@ def command_manager(req_list):
         elif command == "money-status":
             timestamp = requests[1]
             result = Money_Status.money_status(timestamp)
+        else:
+            return
         print(result)
