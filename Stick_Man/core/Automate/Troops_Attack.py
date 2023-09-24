@@ -1,15 +1,18 @@
 from Stick_Man.core.Troops.Troops import Troops
 from Stick_Man.core.Enemy import Enemy
 from Stick_Man.core.Automate.Timestamps import Timestaps
+from Stick_Man.core.Automate.Cal_Timeingame import runtime
 
 
 def attack(timestamps):
     time_in_seconds = Timestaps(timestamps)
     attack_damage: int = 0
     for ids in Troops.troops:
+        if Troops.troops[ids].type == "miner":  # if Troops.troops[ids].type != "miner":
+            continue
+        time_in_game = runtime(Troops.troops[ids].starttime,Troops.troops[ids].endtime,time_in_seconds)
         power = Troops.troops[ids].power
         speed = Troops.troops[ids].speed
-        time = Troops.troops[ids].starttime
-        attack_damage += ((time_in_seconds - time) // speed) * power
+        attack_damage += (time_in_game // speed) * power
     Enemy.remhealth -= attack_damage
     # print(Enemy.remhealth)

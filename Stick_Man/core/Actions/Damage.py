@@ -1,8 +1,8 @@
 from Stick_Man.core.Automate.Timestamps import Timestaps
 from Stick_Man.core.Troops.Troops import Troops
-from Stick_Man.core.Automate.Attack import attack_enemy
+from Stick_Man.core.Automate.Decorators.Attack import attack_enemy
 from Stick_Man.core.Automate.Kill_Troops import kill_troop
-from Stick_Man.core.Automate.Check_Enemy import check_enemy
+from Stick_Man.core.Automate.Decorators.Check_Enemy import check_enemy
 
 
 @check_enemy
@@ -11,6 +11,6 @@ def damage(troops_id: int, power: int, timestamps):
     time_in_seconds = Timestaps(timestamps)
     Troops.troops[troops_id].health -= power
     if Troops.troops[troops_id].health <= 0:
-        return kill_troop(troops_id)
+        return kill_troop(troops_id,time_in_seconds)
     else:
         return Troops.troops[troops_id].health

@@ -6,7 +6,6 @@ class Spearton(Troops):
     cost = 500
     power = 35
     speed = 3
-    income = 0
     unit = 2
     def __init__(self,starttime):
         super().__init__(Spearton.health, "spearton",starttime)
