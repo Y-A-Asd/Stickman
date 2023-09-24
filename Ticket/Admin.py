@@ -1,6 +1,7 @@
 from Users import Users
 
 
+
 class Admin(Users):
     def __init__(self, username, password):
         self.username = username
