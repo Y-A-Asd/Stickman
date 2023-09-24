@@ -3,6 +3,7 @@ from Users import Users
 def admin():
     pass
 
+
 class Admin(Users):
     def __init__(self, username, password):
         self.username = username
