@@ -5,4 +5,4 @@ def runtime(starttime, endtime, time_in_seconds):
         pass
     else:
         end = time_in_seconds
-    return end -starttime
+    return end - starttime
