@@ -1,2 +1,1 @@
 ORGINALHEALTH = 0
-ISDEAD = False

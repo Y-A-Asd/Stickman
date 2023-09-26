@@ -15,6 +15,7 @@ from core.Troops.Swordwarth import Swordwrath
 @check_enemy
 @attack_enemy
 def add_troop(troops_type: str, timestamps):  # type == one of trups class names
+
     troops_type = eval(troops_type.capitalize())
     time_in_seconds = Timestaps(timestamps)
     if Player.ORGINALBALANCE - troops_type.cost < 0:
