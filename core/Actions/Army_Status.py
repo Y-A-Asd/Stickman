@@ -1,4 +1,4 @@
-from core.Automate.Timestamps import Timestaps
+from core.Utils.Timestamps import Timestaps
 from core.Troops.Troops import Troops
 from core.Automate.Decorators.Attack_Enemy import attack_enemy
 from core.Automate.Decorators.Check_Enemy import check_enemy

@@ -1,4 +1,4 @@
-from core.Enemy import Enemy
+from core.Utils.Enemy import Enemy
 from command.Command_Manager import CommandManager
 
 

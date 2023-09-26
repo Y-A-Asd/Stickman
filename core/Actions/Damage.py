@@ -1,8 +1,8 @@
 from core.Automate.Decorators.Attack_Enemy import attack_enemy
 from core.Automate.Decorators.Check_Enemy import check_enemy
 from core.Automate.Decorators.Check_Money import check_money
-from core.Automate.Kill_Troops import kill_troop
-from core.Automate.Timestamps import Timestaps
+from core.Utils.Kill_Troops import kill_troop
+from core.Utils.Timestamps import Timestaps
 from core.Troops.Troops import Troops
 
 

@@ -1,5 +1,5 @@
-from core.Automate.Timestamps import Timestaps
-from core.Enemy import Enemy
+from core.Utils.Timestamps import Timestaps
+from core.Utils.Enemy import Enemy
 from core.Automate.Decorators.Attack_Enemy import attack_enemy
 from core.Automate.Decorators.Check_Enemy import check_enemy
 from core.Automate.Decorators.Check_Money import check_money

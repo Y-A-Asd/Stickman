@@ -1,7 +1,7 @@
 from core.Troops.Troops import Troops
-from core.Enemy import Enemy
-from core.Automate.Timestamps import Timestaps
-from core.Automate.Cal_Timeingame import runtime
+from core.Utils.Enemy import Enemy
+from core.Utils.Timestamps import Timestaps
+from core.Utils.Cal_Timeingame import runtime
 
 
 def attack(timestamps):

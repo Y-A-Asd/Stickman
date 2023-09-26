@@ -1,7 +1,7 @@
-from core.Automate.Timestamps import Timestaps
+from core.Utils.Timestamps import Timestaps
 from core.Troops.Troops import Troops
 from core.Player import Player
-from core.Automate.Cal_Timeingame import runtime
+from core.Utils.Cal_Timeingame import runtime
 
 
 def income(num):
