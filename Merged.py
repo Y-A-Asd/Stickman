@@ -1,6 +1,7 @@
 ORGINALBALANCE = 500
 ORGINALHEALTH = 0
 
+
 class Troops:
     troops = dict()
     troops_id = 0
@@ -13,6 +14,8 @@ class Troops:
         self.starttime = starttime
         self.accessible = True
         Troops.troops[Troops.troops_id] = self
+
+
 def attack_enemy(func):
     def wrapper(*args):
         attack(args[-1])
@@ -20,6 +23,8 @@ def attack_enemy(func):
         return result
 
     return wrapper
+
+
 def check_enemy(func):
     def wrapper(*args):
         global ORGINALBALANCE
@@ -28,7 +33,10 @@ def check_enemy(func):
             return "game over"
         result = func(*args)
         return result
+
     return wrapper
+
+
 def check_money(func):
     def wrapper(*args):
         money_auto(args[-1])
@@ -36,6 +44,7 @@ def check_money(func):
         return result
 
     return wrapper
+
 
 def income(num):
     global ORGINALBALANCE
@@ -47,8 +56,9 @@ def gamebasedmoney(time_in_second):
     delta_time = time_in_second - GameBasedMoney.starttime
     income = GameBasedMoney.income
     speed = GameBasedMoney.speed
-    set_start_time(GameBasedMoney,runtime(GameBasedMoney,time_in_second))
+    set_start_time(GameBasedMoney, runtime(GameBasedMoney, time_in_second))
     return delta_time // speed * income
+
 
 def money_auto(timestamps):
     time_in_seconds = Timestaps(timestamps)
@@ -60,12 +70,14 @@ def money_auto(timestamps):
                 if Troops.troops[ids].type == "miner":
                     troop_income = Troops.troops[ids].income
                     speed = Troops.troops[ids].speed
-                    delta_time = time_in_seconds-Troops.troops[ids].starttime
-                    amount += delta_time//speed * troop_income
+                    delta_time = time_in_seconds - Troops.troops[ids].starttime
+                    amount += delta_time // speed * troop_income
                     set_start_time(Troops.troops[ids], runtime(Troops.troops[ids], time_in_seconds))
                     miner_counter += 1
     amount += gamebasedmoney(time_in_seconds)
     income(amount)
+
+
 def attack(timestamps):
     global ORGINALBALANCE
     global ORGINALHEALTH
@@ -77,19 +89,16 @@ def attack(timestamps):
                 continue
             power = Troops.troops[ids].power
             speed = Troops.troops[ids].speed
-            delta_time = time_in_seconds-Troops.troops[ids].starttime
+            delta_time = time_in_seconds - Troops.troops[ids].starttime
             attack_damage += delta_time // speed * power
             set_start_time(Troops.troops[ids], runtime(Troops.troops[ids], time_in_seconds))
     ORGINALHEALTH -= attack_damage
 
 
-
-
-
 def get_commands():
     global ORGINALBALANCE
     global ORGINALHEALTH
-    q, h = map(int, input().split()) #تو یک خط با فاصله
+    q, h = map(int, input().split())  # تو یک خط با فاصله
     ORGINALHEALTH = h
     req_list = []
     for _ in range(q):
@@ -97,24 +106,27 @@ def get_commands():
         req_list.append(request)
     CommandManager.command_manager(req_list)
 
+
 def runtime(troop: Troops, time_in_seconds):
     I = troop.starttime
     while I < time_in_seconds:
         I += troop.speed
     return round(I - troop.speed)
 
-def kill_troop(troops_id: int,time_in_seconds):
+
+def kill_troop(troops_id: int, time_in_seconds):
     Troops.troops[troops_id].accessible = False
     return "dead"
 
-def set_start_time(troops: Troops,last_time_use: int):
+
+def set_start_time(troops: Troops, last_time_use: int):
     troops.starttime = last_time_use
+
 
 def Timestaps(timestamps):
     minutes, seconds, milliseconds = map(int, timestamps.split(':'))
     time_in_seconds = minutes * 60 + seconds + milliseconds / 1000
     return time_in_seconds
-
 
 
 class Miner(Troops):
@@ -143,6 +155,7 @@ class GameBasedMoney:
     speed = 20
     starttime = 0
     income = 180
+
 
 class Giant(Troops):
     health = 1000
@@ -188,9 +201,6 @@ class Swordwrath(Troops):
         super().__init__(Swordwrath.health, "swordwrath", starttime)
 
 
-
-
-
 @check_money
 @check_enemy
 @attack_enemy
@@ -208,6 +218,8 @@ def add_troop(troops_type: str, timestamps):  # type == one of trups class names
         ORGINALBALANCE -= troops_type.cost
         troops_type(starttime=time_in_seconds)
         return Troops.troops_id
+
+
 @check_money
 @check_enemy
 @attack_enemy
@@ -219,6 +231,8 @@ def army_status(timestamps):
             troop = i[1].type
             troops_dict[troop] += 1
     return " ".join(map(str, reversed(list(troops_dict.values()))))
+
+
 @check_money
 @check_enemy
 @attack_enemy
@@ -236,12 +250,16 @@ def damage(troops_id: int, power: int, timestamps):
         return kill_troop(troops_id, time_in_seconds)
     else:
         return Troops.troops[troops_id].health
+
+
 @check_money
 @check_enemy
 @attack_enemy
 def enemy_status(timestamps):
     time_in_seconds = Timestaps(timestamps)
     return int(ORGINALHEALTH)
+
+
 @check_money
 @check_enemy
 @attack_enemy
@@ -292,6 +310,7 @@ class CommandManager:
             controller = getattr(CommandManager, controller_name)
             result = controller(*args)
             print(result)
+
 
 if __name__ == '__main__':
     get_commands()
