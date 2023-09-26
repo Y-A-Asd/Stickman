@@ -11,5 +11,5 @@ class Troops(ABC):
         self.health = health
         self.type = type
         self.starttime = starttime
-        self.endtime = None
+        self.accessible = True
         Troops.troops[Troops.troops_id] = self

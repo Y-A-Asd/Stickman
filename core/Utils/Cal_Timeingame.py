@@ -1,8 +1,8 @@
+from core.Troops.Troops import Troops
 
 
-def runtime(starttime, endtime, time_in_seconds):
-    if end := endtime:
-        pass
-    else:
-        end = time_in_seconds
-    return end - starttime
+def runtime(troop: Troops, time_in_seconds):
+    I = troop.starttime
+    while I < time_in_seconds:
+        I += troop.speed
+    return round(I - troop.speed)

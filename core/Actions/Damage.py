@@ -14,7 +14,7 @@ def damage(troops_id: int, power: int, timestamps):
     troops_id = int(troops_id)
     power = int(power)
     try:
-        if Troops.troops[troops_id].endtime:
+        if not Troops.troops[troops_id].accessible:
             raise Exception()
         Troops.troops[troops_id].health -= power
     except:

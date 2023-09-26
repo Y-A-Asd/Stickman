@@ -16,10 +16,8 @@ from core.Troops.Swordwarth import Swordwrath
 @attack_enemy
 def add_troop(troops_type: str, timestamps):  # type == one of trups class names
     troops_type = eval(troops_type.capitalize())
-    if not issubclass(troops_type, Troops):
-        raise Exception()
     time_in_seconds = Timestaps(timestamps)
-    if Player.ORGINALBALANCE + Player.NEWBALANCE - troops_type.cost < 0:
+    if Player.ORGINALBALANCE - troops_type.cost < 0:
         return "not enough money!"
     elif Troops.troops_capacity - troops_type.unit < 0:
         return "too many troops!"
