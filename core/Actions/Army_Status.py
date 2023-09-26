@@ -11,7 +11,6 @@ from core.Automate.Decorators.Check_Money import check_money
 def army_status(timestamps):
     time_in_seconds = Timestaps(timestamps)
     troops_dict = {"giant": 0, "magikill": 0, "spearton": 0, "archidon": 0, "swordwrath": 0, "miner": 0}
-    #todo chenge for like ids in trooops_dict
     for i in list(Troops.troops.items()):
         if not i[1].endtime:
             troop = i[1].type
