@@ -9,4 +9,5 @@ def get_commands():
     for _ in range(q):
         request = input().split()
         req_list.append(request)
-    CommandManager.command_manager(req_list)
+    manager = CommandManager()
+    manager.command_manager(req_list)

@@ -1,46 +1,68 @@
 from core.Actions import Damage, Money_Status, Army_Status, Add_Troops, Enemy_Status
+from abc import ABC,abstractmethod
+
+
+class StateManager(ABC):
+    @abstractmethod
+    def execute(self, manager, args):
+        pass
+
+
+class AddTroopsState(StateManager):
+    def execute(self, manager, args):
+        troops_type, timestamps = args
+        result = Add_Troops.add_troop(troops_type, timestamps)
+        print(result)
+
+
+class DamageState(StateManager):
+    def execute(self, manager, args):
+        idx, d, timestamps = args
+        result = Damage.damage(idx, d, timestamps)
+        print(result)
+
+
+class EnemyStatusState(StateManager):
+    def execute(self, manager, args):
+        timestamps = args[0]
+        result = Enemy_Status.enemy_status(timestamps)
+        print(result)
+
+
+class ArmyStatusState(StateManager):
+    def execute(self, manager, args):
+        timestamps = args[0]
+        result = Army_Status.army_status(timestamps)
+        print(result)
+
+
+class MoneyStatusState(StateManager):
+    def execute(self, manager, args):
+        timestamps = args[0]
+        result = Money_Status.money_status(timestamps)
+        print(result)
 
 
 class CommandManager:
-    # command_functions = {
-    #     "add": Add_Troops.add_troop,
-    #     "damage": Damage.damage,
-    #     "enemy-status": Enemy_Status.enemy_status,
-    #     "army-status": Army_Status.army_status,
-    #     "money-status": Money_Status.money_status}
-    # @staticmethod
-    # def command_manager(req_list):
-    #     for requests in req_list:
-    #         command = requests[0]
-    #         command_func = CommandManager.command_functions[command]
-    #         args = requests[1:]
-    #         result = command_func(*args)
-    #         print(result)
-    @staticmethod
-    def add(troops_type, timestamps):
-        return Add_Troops.add_troop(troops_type, timestamps)
+    def __init__(self):
+        self.states = {
+            "add": AddTroopsState(),
+            "damage": DamageState(),
+            "enemy-status": EnemyStatusState(),
+            "army-status": ArmyStatusState(),
+            "money-status": MoneyStatusState()
+        }
 
-    @staticmethod
-    def damage(idx, d, timestamps):
-        return Damage.damage(idx, d, timestamps)
-
-    @staticmethod
-    def enemy_status(timestamps):
-        return Enemy_Status.enemy_status(timestamps)
-
-    @staticmethod
-    def army_status(timestamps):
-        return Army_Status.army_status(timestamps)
-
-    @staticmethod
-    def money_status(timestamps):
-        return Money_Status.money_status(timestamps)
-
-    @staticmethod
-    def command_manager(req_list):
+    def command_manager(self, req_list):
         for request in req_list:
-            controller_name = request[0].replace("-", "_")
+            command = request[0]
             args = request[1:]
-            controller = getattr(CommandManager, controller_name)
-            result = controller(*args)
-            print(result)
+
+            if command in self.states:
+                state = self.states[command]
+                state.execute(self, args)
+            else:
+                print(f"Unknown command: {command}")
+
+
+
