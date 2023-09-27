@@ -1,0 +1,34 @@
+ 32 10000
+money-status 00:00:001
+add miner 00:00:002
+add miner 00:00:003
+add miner 00:00:004
+money-status 00:00:005
+add miner 00:10:006
+add miner 00:10:007
+add swordwrath 02:00:008
+add archidon 02:00:009
+army-status 02:00:010
+add spearton 02:00:011
+add magikill 02:00:012
+add giant 02:00:013
+enemy-status 02:00:014
+army-status 02:00:015
+damage 1 10 02:01:016
+damage 2 10 02:01:017
+damage 3 20 02:01:018
+damage 4 3 02:01:019
+damage 5 15 02:01:020
+damage 6 1000 02:01:021
+damage 7 60 02:01:022
+damage 8 16 02:01:023
+damage 16 16 02:01:024
+enemy-status 02:01:025
+army-status 02:01:026
+damage 6 17 02:31:027
+damage 7 18 02:31:028
+damage 8 19 02:31:029
+damage 9 20 02:31:030
+enemy-status 02:31:031
+army-status 02:31:032
+

@@ -2,7 +2,6 @@ from core.Utils.Timestamps import Timestaps
 from core.Troops.Troops import Troops
 from core.Player import Player
 from core.Automate.Decorators.Attack_Enemy import attack_enemy
-from core.Automate.Decorators.Check_Enemy import check_enemy
 from core.Automate.Decorators.Check_Money import check_money
 from core.Troops.Miner import Miner
 from core.Troops.Magikill import Magikill
@@ -12,7 +11,6 @@ from core.Troops.Archidon import Archidon
 from core.Troops.Swordwarth import Swordwrath
 
 @check_money
-@check_enemy
 @attack_enemy
 def add_troop(troops_type: str, timestamps):  # type == one of trups class names
 

@@ -1,13 +1,11 @@
 from core.Automate.Decorators.Attack_Enemy import attack_enemy
-from core.Automate.Decorators.Check_Enemy import check_enemy
-from core.Automate.Decorators.Check_Money import check_money
 from core.Utils.Kill_Troops import kill_troop
 from core.Utils.Timestamps import Timestaps
 from core.Troops.Troops import Troops
 
 
-@check_money
-@check_enemy
+
+
 @attack_enemy
 def damage(troops_id: int, power: int, timestamps):
     time_in_seconds = Timestaps(timestamps)
